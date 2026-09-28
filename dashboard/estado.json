@@ -2,13 +2,13 @@
   "marca": "DBB Labs",
   "objetivo": "kapa21-v2",
   "stack": "Next.js + Supabase",
-  "modo": "DBB-HACK · nivel full · EN VIVO",
+  "modo": "listo para lanzar",
   "estado": "completado",
   "kpis": {
-    "vectores": 1,
+    "vectores": 0,
     "defendidos": 0,
-    "hallazgos": 1,
-    "cobertura": 60
+    "hallazgos": 0,
+    "cobertura": 0
   },
   "severidades": {
     "critica": 0,
@@ -16,54 +16,8 @@
     "media": 0,
     "baja": 0
   },
-  "integridad": 85,
-  "veredicto": "Ataque completado: 0 defendidos, 1 hallazgos, 0 vulnerables de 1 vectores.",
-  "ataques": [
-    {
-      "id": "A6",
-      "nombre": "Fuerza bruta de login",
-      "categoria": "Anti-automacion",
-      "owasp": "API4",
-      "iso": "A.8.5",
-      "estado": "hallazgo",
-      "detalle": "sin freno local; verificar borde en prod",
-      "severidad": "media",
-      "recomendacion": "Verificar en produccion: regla de rate-limit en Vercel Firewall para /acceso y el endpoint de auth; rate-limits de Supabase Auth activos; idealmente captcha en el login.",
-      "prompt_fix": "Contexto: DBB-HACK detecto que la proteccion contra fuerza bruta depende solo del borde y el limitador propio (features/auth/lib/limite.ts) es por cookie y evitable, y no cubre /auth/v1/token de Supabase. Tarea: (1) habilitar rate-limit en Vercel Firewall para /acceso y auth; (2) verificar/ajustar rate-limits de Supabase Auth en produccion; (3) evaluar captcha (hCaptcha/Turnstile); (4) definir [auth.rate_limit] en supabase/config.toml. Listo cuando 20 intentos fallidos contra /auth/v1/token reciban 429 y el login legitimo siga funcionando."
-    }
-  ],
-  "eventos": [
-    {
-      "hora": "18:46:35",
-      "tipo": "info",
-      "texto": "Ataque iniciado contra kapa21-v2 (lab local aislado)"
-    },
-    {
-      "hora": "18:46:35",
-      "tipo": "ataque",
-      "texto": "A6 Fuerza bruta de login: preparando..."
-    },
-    {
-      "hora": "18:46:35",
-      "tipo": "info",
-      "texto": "Ataque finalizado."
-    },
-    {
-      "hora": "18:46:37",
-      "tipo": "ataque",
-      "texto": "A6 15 intentos de login fallidos rapidos..."
-    },
-    {
-      "hora": "18:46:39",
-      "tipo": "hallazgo",
-      "texto": "A6 Fuerza bruta de login: sin freno local; verificar borde en prod"
-    },
-    {
-      "hora": "18:46:41",
-      "tipo": "info",
-      "texto": "Ataque finalizado."
-    }
-  ],
-  "inicio": "2026-09-28T18:46:35.098895",
-  "total": 1
+  "integridad": 100,
+  "veredicto": "Sin corrida — listo para lanzar.",
+  "ataques": [],
+  "eventos": []
 }
