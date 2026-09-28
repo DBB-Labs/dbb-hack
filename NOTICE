@@ -7,3 +7,8 @@ Copyright de esos archivos: Strix / usestrix. Ver LICENSE (Apache-2.0).
 DBB-HACK NO ejecuta exploits en vivo como Strix; es una revisión de código
 (caja blanca) asistida por Claude Code, guiada por estos playbooks.
 Uso interno de DBB. Solo sobre repos propios y autorizados.
+
+--- marcos/ ---
+Los catálogos en marcos/ provienen del corpus propio de Felipe (~/Desktop/ISO):
+notas y catálogos derivados de ISO 27000/27002, OWASP ASVS/WSTG y WCAG. NO incluyen
+los textos oficiales ISO (con copyright). Uso interno.

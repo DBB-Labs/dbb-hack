@@ -1,0 +1,272 @@
+[
+  {
+    "risk_id": "WEB-2025-A01",
+    "title": "Broken Access Control",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Probar autorización por recurso, sujeto y función en rutas directas e indirectas; controlar lectura y modificación ajena.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A02",
+    "title": "Security Misconfiguration",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Contrastar configuración efectiva, exposición, permisos y valores predeterminados con baseline aprobada.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A03",
+    "title": "Software Supply Chain Failures",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Verificar origen, resolución, construcción, dependencias y capacidad de respuesta a cambios comprometidos.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A04",
+    "title": "Cryptographic Failures",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Seguir datos sensibles y claves; verificar mecanismos adecuados al propósito y su uso real.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A05",
+    "title": "Injection",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Trazar entrada no confiable hasta intérprete; evaluar parametrización y codificación contextual, no una sanitización genérica.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A06",
+    "title": "Insecure Design",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Modelar amenazas y abusos de negocio antes de probar implementación; revisar límites de confianza e invariantes.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A07",
+    "title": "Authentication Failures",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Evaluar ciclo de identidad, factores, recuperación y resistencia de sesiones según riesgos y requisitos.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A08",
+    "title": "Software or Data Integrity Failures",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Verificar autenticidad e integridad de código/datos consumidos y decisiones basadas en ellos.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A09",
+    "title": "Security Logging and Alerting Failures",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Seguir evento sintético desde generación hasta alerta y respuesta; revisar integridad y datos sensibles.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "WEB-2025-A10",
+    "title": "Mishandling of Exceptional Conditions",
+    "source_url": "https://top10.owasp.org/2025/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Provocar excepciones y fallos intermedios controlados; comprobar estado seguro, atomicidad y recuperación.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API1",
+    "title": "Broken Object Level Authorization",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Con sujeto A solicitar objetos de B y comparar permiso efectivo para cada operación.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API2",
+    "title": "Broken Authentication",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Probar autenticación, tokens y recuperación aplicables a consumidores de API con identidades ficticias.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API3",
+    "title": "Broken Object Property Level Authorization",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Variar propiedades leídas/escritas y verificar autorización por campo; revisar asignación masiva y exposición.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API4",
+    "title": "Unrestricted Resource Consumption",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Revisar límites de memoria, CPU, almacenamiento, paginación y costos; ensayar solo carga autorizada y acotada.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API5",
+    "title": "Broken Function Level Authorization",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Comparar funciones permitidas por rol y probar endpoints privilegiados con rol ordinario.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API6",
+    "title": "Unrestricted Access to Sensitive Business Flows",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Identificar automatización abusiva de flujos y controles proporcionales, sin confundirlos con login.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API7",
+    "title": "Server Side Request Forgery",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Revisar destinos construidos desde entrada y validación de redirecciones/resolución; usar destinos simulados sin red privada real.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API8",
+    "title": "Security Misconfiguration",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Revisar exposición, errores, métodos, headers y configuración efectiva de servicios y gateway.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API9",
+    "title": "Improper Inventory Management",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Conciliar inventario con versiones, hosts, endpoints y datos; registrar APIs antiguas u omitidas.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "API-2023-API10",
+    "title": "Unsafe Consumption of APIs",
+    "source_url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Tratar respuestas de terceros como no confiables y verificar validación, tiempos, límites y tratamiento de errores.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM01",
+    "title": "Prompt Injection",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Probar instrucciones hostiles directas e indirectas con herramientas simuladas y verificar fronteras externas al modelo.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM02",
+    "title": "Sensitive Information Disclosure",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Usar datos sintéticos segregados; revisar salida, logs, prompts y retrieval frente a ACL y minimización.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM03",
+    "title": "Supply Chain",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Verificar procedencia y versiones de modelos, dependencias, datasets y servicios conectados.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM04",
+    "title": "Data and Model Poisoning",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Revisar origen/aprobación de datos y cambios; ensayar contaminación controlada y detección en fixtures.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM05",
+    "title": "Improper Output Handling",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Tratar salida de modelo como no confiable antes de HTML, consultas, comandos o herramientas; verificar validación contextual.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM06",
+    "title": "Excessive Agency",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Comparar permisos efectivos con tarea, límites y aprobaciones; probar acción fuera de mandato con herramientas simuladas.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM07",
+    "title": "System Prompt Leakage",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "No almacenar secretos como protección en prompt; comprobar que filtración del texto no concede acceso ni revela datos restringidos.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM08",
+    "title": "Vector and Embedding Weaknesses",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Probar ACL de retrieval, contaminación de índice, revocación y separación entre usuarios.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM09",
+    "title": "Misinformation",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Evaluar soporte de afirmaciones, citas y abstención con preguntas verificables y sin respuesta; revisar efectos sobre decisiones.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  },
+  {
+    "risk_id": "LLM-2025-LLM10",
+    "title": "Unbounded Consumption",
+    "source_url": "https://genai.owasp.org/llm-top-10/",
+    "knowledge_type": "AWARENESS_CATEGORY",
+    "procedure_original_es": "Definir presupuestos, límites de contexto/llamadas/tiempo y corte externo; ensayar consumo con topes de laboratorio.",
+    "compliance_equivalence": false,
+    "asvs_mapping_status": "NOT_ASSERTED_REQUIRES_REVIEW"
+  }
+]

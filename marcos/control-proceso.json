@@ -1,0 +1,1025 @@
+[
+  {
+    "control_id": "A.5.1",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.2",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.3",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.4",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.5",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.6",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.7",
+    "primary_process_id": "P10",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.8",
+    "primary_process_id": "P01",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.9",
+    "primary_process_id": "P03",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.10",
+    "primary_process_id": "P03",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.11",
+    "primary_process_id": "P03",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.12",
+    "primary_process_id": "P03",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.13",
+    "primary_process_id": "P03",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.14",
+    "primary_process_id": "P14",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.15",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.16",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.17",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.18",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.19",
+    "primary_process_id": "P06",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.20",
+    "primary_process_id": "P06",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.21",
+    "primary_process_id": "P06",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.22",
+    "primary_process_id": "P06",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.23",
+    "primary_process_id": "P06",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.24",
+    "primary_process_id": "P12",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.25",
+    "primary_process_id": "P12",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.26",
+    "primary_process_id": "P12",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.27",
+    "primary_process_id": "P12",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.28",
+    "primary_process_id": "P12",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.29",
+    "primary_process_id": "P13",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.30",
+    "primary_process_id": "P13",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.31",
+    "primary_process_id": "P07",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.32",
+    "primary_process_id": "P07",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.33",
+    "primary_process_id": "P07",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.34",
+    "primary_process_id": "P07",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.35",
+    "primary_process_id": "P17",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.36",
+    "primary_process_id": "P17",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.5.37",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.1",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.2",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.3",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.4",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.5",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.6",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.7",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.6.8",
+    "primary_process_id": "P04",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.1",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.2",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.3",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.4",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.5",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.6",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.7",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.8",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.9",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.10",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.11",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.12",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.13",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.7.14",
+    "primary_process_id": "P08",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.1",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.2",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.3",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.4",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.5",
+    "primary_process_id": "P05",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.6",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.7",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.8",
+    "primary_process_id": "P10",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.9",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.10",
+    "primary_process_id": "P14",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.11",
+    "primary_process_id": "P14",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.12",
+    "primary_process_id": "P14",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.13",
+    "primary_process_id": "P13",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.14",
+    "primary_process_id": "P13",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.15",
+    "primary_process_id": "P11",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.16",
+    "primary_process_id": "P11",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.17",
+    "primary_process_id": "P11",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.18",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.19",
+    "primary_process_id": "P09",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.20",
+    "primary_process_id": "P15",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.21",
+    "primary_process_id": "P15",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.22",
+    "primary_process_id": "P15",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.23",
+    "primary_process_id": "P15",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.24",
+    "primary_process_id": "P14",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.25",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.26",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.27",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.28",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.29",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.30",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.31",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.32",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.33",
+    "primary_process_id": "P16",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  },
+  {
+    "control_id": "A.8.34",
+    "primary_process_id": "P17",
+    "supporting_process_ids": [
+      "P02",
+      "P18"
+    ],
+    "mapping_type": "ORIGINAL_OPERATIONAL_CLASSIFICATION_NOT_NORMATIVE_EQUIVALENCE",
+    "source_record": "corpus/corpus-general-analisis-repos/catalogo-controles.json",
+    "owner_actual": null
+  }
+]

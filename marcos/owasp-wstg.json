@@ -1,0 +1,2341 @@
+[
+  {
+    "scenario_id": "WSTG-v42-INFO-01",
+    "original_id": "WSTG-INFO-01",
+    "version": "4.2",
+    "title": "Conduct Search Engine Discovery Reconnaissance for Information Leakage",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md.txt",
+    "source_sha256": "fba1e88fb186c5419cf2b1adf1a44a0f9ed7f25b53b7e81ae8dd03704a985031",
+    "objectives_original": "- Identify what sensitive design and configuration information of the application, system, or organization is exposed directly (on the organization's website) or indirectly (via third-party services).",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-01",
+        "original_id": "WSTG-INFO-01",
+        "version": "4.2",
+        "title": "Conduct Search Engine Discovery Reconnaissance for Information Leakage",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md.txt",
+        "source_sha256": "fba1e88fb186c5419cf2b1adf1a44a0f9ed7f25b53b7e81ae8dd03704a985031",
+        "objectives_original": "- Identify what sensitive design and configuration information of the application, system, or organization is exposed directly (on the organization's website) or indirectly (via third-party services).",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-02",
+    "original_id": "WSTG-INFO-02",
+    "version": "4.2",
+    "title": "Fingerprint Web Server",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md.txt",
+    "source_sha256": "4af906dbc70a486550fa56e0b3ed33e0ea7b1879f67dd9004a74b6b6a73b9289",
+    "objectives_original": "- Determine the version and type of a running web server to enable further discovery of any known vulnerabilities.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-02",
+        "original_id": "WSTG-INFO-02",
+        "version": "4.2",
+        "title": "Fingerprint Web Server",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md.txt",
+        "source_sha256": "4af906dbc70a486550fa56e0b3ed33e0ea7b1879f67dd9004a74b6b6a73b9289",
+        "objectives_original": "- Determine the version and type of a running web server to enable further discovery of any known vulnerabilities.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-03",
+    "original_id": "WSTG-INFO-03",
+    "version": "4.2",
+    "title": "Review Webserver Metafiles for Information Leakage",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md.txt",
+    "source_sha256": "af61c15201afa6a53d4d7ab80b3caec6fae6b8c01efda7d08d5500120078798a",
+    "objectives_original": "- Identify hidden or obfuscated paths and functionality through the analysis of metadata files.\n- Extract and map other information that could lead to better understanding of the systems at hand.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-03",
+        "original_id": "WSTG-INFO-03",
+        "version": "4.2",
+        "title": "Review Webserver Metafiles for Information Leakage",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md.txt",
+        "source_sha256": "af61c15201afa6a53d4d7ab80b3caec6fae6b8c01efda7d08d5500120078798a",
+        "objectives_original": "- Identify hidden or obfuscated paths and functionality through the analysis of metadata files.\n- Extract and map other information that could lead to better understanding of the systems at hand.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-04",
+    "original_id": "WSTG-INFO-04",
+    "version": "4.2",
+    "title": "Enumerate Applications on Webserver",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md.txt",
+    "source_sha256": "3e9f94e46e554e1360ba2f100f0c6cadc999d2a93050860141c5dd2194a11fbb",
+    "objectives_original": "- Enumerate the applications within scope that exist on a web server.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-04",
+        "original_id": "WSTG-INFO-04",
+        "version": "4.2",
+        "title": "Enumerate Applications on Webserver",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md.txt",
+        "source_sha256": "3e9f94e46e554e1360ba2f100f0c6cadc999d2a93050860141c5dd2194a11fbb",
+        "objectives_original": "- Enumerate the applications within scope that exist on a web server.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-05",
+    "original_id": "WSTG-INFO-05",
+    "version": "4.2",
+    "title": "Review Webpage Content for Information Leakage",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md.txt",
+    "source_sha256": "026f73ce1ea476937d0e00a7633c342613e027570530dc835bd8cab732fa2d12",
+    "objectives_original": "- Review webpage comments and metadata to find any information leakage.\n- Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.\n- Identify if source map files or other front-end debug files exist.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-05",
+        "original_id": "WSTG-INFO-05",
+        "version": "4.2",
+        "title": "Review Webpage Content for Information Leakage",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md.txt",
+        "source_sha256": "026f73ce1ea476937d0e00a7633c342613e027570530dc835bd8cab732fa2d12",
+        "objectives_original": "- Review webpage comments and metadata to find any information leakage.\n- Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.\n- Identify if source map files or other front-end debug files exist.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-06",
+    "original_id": "WSTG-INFO-06",
+    "version": "4.2",
+    "title": "Identify Application Entry Points",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md.txt",
+    "source_sha256": "b2b039774a46b96fce3d83add1bf85b8144c7c6cee8be066d391ad50a8f1f075",
+    "objectives_original": "- Identify possible entry and injection points through request and response analysis.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-06",
+        "original_id": "WSTG-INFO-06",
+        "version": "4.2",
+        "title": "Identify Application Entry Points",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md.txt",
+        "source_sha256": "b2b039774a46b96fce3d83add1bf85b8144c7c6cee8be066d391ad50a8f1f075",
+        "objectives_original": "- Identify possible entry and injection points through request and response analysis.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-07",
+    "original_id": "WSTG-INFO-07",
+    "version": "4.2",
+    "title": "Map Execution Paths Through Application",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md.txt",
+    "source_sha256": "40d1dd3d39c3d836ad5b7ed5d81e21442ded5cabe42843f47687777bd316868a",
+    "objectives_original": "- Map the target application and understand the principal workflows.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-07",
+        "original_id": "WSTG-INFO-07",
+        "version": "4.2",
+        "title": "Map Execution Paths Through Application",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md.txt",
+        "source_sha256": "40d1dd3d39c3d836ad5b7ed5d81e21442ded5cabe42843f47687777bd316868a",
+        "objectives_original": "- Map the target application and understand the principal workflows.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-08",
+    "original_id": "WSTG-INFO-08",
+    "version": "4.2",
+    "title": "Fingerprint Web Application Framework",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md.txt",
+    "source_sha256": "314c0b98d859d8c450e1f1dc80d47074f27e8fa3fdb1df7d54433a5a241eafba",
+    "objectives_original": "- Fingerprint the components being used by the web applications.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-08",
+        "original_id": "WSTG-INFO-08",
+        "version": "4.2",
+        "title": "Fingerprint Web Application Framework",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md.txt",
+        "source_sha256": "314c0b98d859d8c450e1f1dc80d47074f27e8fa3fdb1df7d54433a5a241eafba",
+        "objectives_original": "- Fingerprint the components being used by the web applications.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-09",
+    "original_id": "WSTG-INFO-09",
+    "version": "4.2",
+    "title": "Fingerprint Web Application",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.md.txt",
+    "source_sha256": "9090a30b0ff181eaac003867f0f70fecf2c71084423033ef3b4da431c04b1db0",
+    "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-09",
+        "original_id": "WSTG-INFO-09",
+        "version": "4.2",
+        "title": "Fingerprint Web Application",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.md.txt",
+        "source_sha256": "9090a30b0ff181eaac003867f0f70fecf2c71084423033ef3b4da431c04b1db0",
+        "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INFO-10",
+    "original_id": "WSTG-INFO-10",
+    "version": "4.2",
+    "title": "Map Application Architecture",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md.txt",
+    "source_sha256": "941dbefdefdf7e1f97c6d274d05a1f8b93a275be28443a0c67369d104bf8b29f",
+    "objectives_original": "- Generate a map of the application at hand based on the research conducted.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INFO-10",
+        "original_id": "WSTG-INFO-10",
+        "version": "4.2",
+        "title": "Map Application Architecture",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md.txt",
+        "source_sha256": "941dbefdefdf7e1f97c6d274d05a1f8b93a275be28443a0c67369d104bf8b29f",
+        "objectives_original": "- Generate a map of the application at hand based on the research conducted.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-01",
+    "original_id": "WSTG-CONF-01",
+    "version": "4.2",
+    "title": "Test Network Infrastructure Configuration",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md.txt",
+    "source_sha256": "162a7db7415e35638fe0d3c634236916a5c975531b28a3d34800eddee2614584",
+    "objectives_original": "- Review the applications' configurations set across the network and validate that they are not vulnerable.\n- Validate that used frameworks and systems are secure and not susceptible to known vulnerabilities due to unmaintained software or default settings and credentials.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-01",
+        "original_id": "WSTG-CONF-01",
+        "version": "4.2",
+        "title": "Test Network Infrastructure Configuration",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md.txt",
+        "source_sha256": "162a7db7415e35638fe0d3c634236916a5c975531b28a3d34800eddee2614584",
+        "objectives_original": "- Review the applications' configurations set across the network and validate that they are not vulnerable.\n- Validate that used frameworks and systems are secure and not susceptible to known vulnerabilities due to unmaintained software or default settings and credentials.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-02",
+    "original_id": "WSTG-CONF-02",
+    "version": "4.2",
+    "title": "Test Application Platform Configuration",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md.txt",
+    "source_sha256": "2922f35cad6058c885ce62fa1f44301f34709c158f79483301ef581b357fbbd4",
+    "objectives_original": "- Ensure that defaults and known files have been removed.\n- Validate that no debugging code or extensions are left in the production environments.\n- Review the logging mechanisms set in place for the application.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-02",
+        "original_id": "WSTG-CONF-02",
+        "version": "4.2",
+        "title": "Test Application Platform Configuration",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md.txt",
+        "source_sha256": "2922f35cad6058c885ce62fa1f44301f34709c158f79483301ef581b357fbbd4",
+        "objectives_original": "- Ensure that defaults and known files have been removed.\n- Validate that no debugging code or extensions are left in the production environments.\n- Review the logging mechanisms set in place for the application.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-03",
+    "original_id": "WSTG-CONF-03",
+    "version": "4.2",
+    "title": "Test File Extensions Handling for Sensitive Information",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information.md.txt",
+    "source_sha256": "aad6f072e86fccfc28b9d6727d2bbe9c9583d686a78cbbdbbde6fc64e6bb21bb",
+    "objectives_original": "- Dirbust sensitive file extensions, or extensions that might contain raw data (*e.g.* scripts, raw data, credentials, etc.).\n- Validate that no system framework bypasses exist on the rules set.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-03",
+        "original_id": "WSTG-CONF-03",
+        "version": "4.2",
+        "title": "Test File Extensions Handling for Sensitive Information",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information.md.txt",
+        "source_sha256": "aad6f072e86fccfc28b9d6727d2bbe9c9583d686a78cbbdbbde6fc64e6bb21bb",
+        "objectives_original": "- Dirbust sensitive file extensions, or extensions that might contain raw data (*e.g.* scripts, raw data, credentials, etc.).\n- Validate that no system framework bypasses exist on the rules set.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-04",
+    "original_id": "WSTG-CONF-04",
+    "version": "4.2",
+    "title": "Review Old Backup and Unreferenced Files for Sensitive Information",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information.md.txt",
+    "source_sha256": "b46bdf183276d5e5d269e3f13db92c94c9c0a1aa686b7104d6f27431b63f315a",
+    "objectives_original": "- Find and analyse unreferenced files that might contain sensitive information.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-04",
+        "original_id": "WSTG-CONF-04",
+        "version": "4.2",
+        "title": "Review Old Backup and Unreferenced Files for Sensitive Information",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information.md.txt",
+        "source_sha256": "b46bdf183276d5e5d269e3f13db92c94c9c0a1aa686b7104d6f27431b63f315a",
+        "objectives_original": "- Find and analyse unreferenced files that might contain sensitive information.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-05",
+    "original_id": "WSTG-CONF-05",
+    "version": "4.2",
+    "title": "Enumerate Infrastructure and Application Admin Interfaces",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces.md.txt",
+    "source_sha256": "adf9055bdd7293f362e1c9de9e46ecb915a3c582018382988baab90339007ba6",
+    "objectives_original": "- Identify hidden administrator interfaces and functionality.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-05",
+        "original_id": "WSTG-CONF-05",
+        "version": "4.2",
+        "title": "Enumerate Infrastructure and Application Admin Interfaces",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces.md.txt",
+        "source_sha256": "adf9055bdd7293f362e1c9de9e46ecb915a3c582018382988baab90339007ba6",
+        "objectives_original": "- Identify hidden administrator interfaces and functionality.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-06",
+    "original_id": "WSTG-CONF-06",
+    "version": "4.2",
+    "title": "Test HTTP Methods",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods.md.txt",
+    "source_sha256": "b71e2c26ed23b2c6ff13863de376e29257f6695ec9793772401f6cfc5a01d5ae",
+    "objectives_original": "- Enumerate supported HTTP methods.\n- Test for access control bypass.\n- Test XST vulnerabilities.\n- Test HTTP method overriding techniques.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-06",
+        "original_id": "WSTG-CONF-06",
+        "version": "4.2",
+        "title": "Test HTTP Methods",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods.md.txt",
+        "source_sha256": "b71e2c26ed23b2c6ff13863de376e29257f6695ec9793772401f6cfc5a01d5ae",
+        "objectives_original": "- Enumerate supported HTTP methods.\n- Test for access control bypass.\n- Test XST vulnerabilities.\n- Test HTTP method overriding techniques.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-07",
+    "original_id": "WSTG-CONF-07",
+    "version": "4.2",
+    "title": "Test HTTP Strict Transport Security",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security.md.txt",
+    "source_sha256": "d27d40fcba3330f07ed5712ee3b5c52ed52604e93719b0ef23b0f053f68221bc",
+    "objectives_original": "- Review the HSTS header and its validity.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-07",
+        "original_id": "WSTG-CONF-07",
+        "version": "4.2",
+        "title": "Test HTTP Strict Transport Security",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security.md.txt",
+        "source_sha256": "d27d40fcba3330f07ed5712ee3b5c52ed52604e93719b0ef23b0f053f68221bc",
+        "objectives_original": "- Review the HSTS header and its validity.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-08",
+    "original_id": "WSTG-CONF-08",
+    "version": "4.2",
+    "title": "Test RIA Cross Domain Policy",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy.md.txt",
+    "source_sha256": "850f6277a8f03a5c2a6600375bea86b75119727b74b56bad7f100f286eb031d6",
+    "objectives_original": "- Review and validate the policy files.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-08",
+        "original_id": "WSTG-CONF-08",
+        "version": "4.2",
+        "title": "Test RIA Cross Domain Policy",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy.md.txt",
+        "source_sha256": "850f6277a8f03a5c2a6600375bea86b75119727b74b56bad7f100f286eb031d6",
+        "objectives_original": "- Review and validate the policy files.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-09",
+    "original_id": "WSTG-CONF-09",
+    "version": "4.2",
+    "title": "Test File Permission",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/09-Test_File_Permission.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/09-Test_File_Permission.md.txt",
+    "source_sha256": "e533194f9cecae8252f66fe30f4153010b45bec23f037da9c96c76e01540d5a1",
+    "objectives_original": "- Review and identify any rogue file permissions.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-09",
+        "original_id": "WSTG-CONF-09",
+        "version": "4.2",
+        "title": "Test File Permission",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/09-Test_File_Permission.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/09-Test_File_Permission.md.txt",
+        "source_sha256": "e533194f9cecae8252f66fe30f4153010b45bec23f037da9c96c76e01540d5a1",
+        "objectives_original": "- Review and identify any rogue file permissions.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-10",
+    "original_id": "WSTG-CONF-10",
+    "version": "4.2",
+    "title": "Test for Subdomain Takeover",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/10-Test_for_Subdomain_Takeover.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/10-Test_for_Subdomain_Takeover.md.txt",
+    "source_sha256": "2ae354ffb43dad8d91e1be24c0f33fbee464f670cdc3eab8d40ab50e77af6bac",
+    "objectives_original": "- Enumerate all possible domains (previous and current).\n- Identify forgotten or misconfigured domains.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-10",
+        "original_id": "WSTG-CONF-10",
+        "version": "4.2",
+        "title": "Test for Subdomain Takeover",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/10-Test_for_Subdomain_Takeover.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/10-Test_for_Subdomain_Takeover.md.txt",
+        "source_sha256": "2ae354ffb43dad8d91e1be24c0f33fbee464f670cdc3eab8d40ab50e77af6bac",
+        "objectives_original": "- Enumerate all possible domains (previous and current).\n- Identify forgotten or misconfigured domains.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CONF-11",
+    "original_id": "WSTG-CONF-11",
+    "version": "4.2",
+    "title": "Test Cloud Storage",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage.md.txt",
+    "source_sha256": "b2e6ce2417d289b6eaccdd8984d6c4bc6378cc0c7519dd039c7bcd3e9e435787",
+    "objectives_original": "- Assess that the access control configuration for the storage services is properly in place.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CONF-11",
+        "original_id": "WSTG-CONF-11",
+        "version": "4.2",
+        "title": "Test Cloud Storage",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage.md.txt",
+        "source_sha256": "b2e6ce2417d289b6eaccdd8984d6c4bc6378cc0c7519dd039c7bcd3e9e435787",
+        "objectives_original": "- Assess that the access control configuration for the storage services is properly in place.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-IDNT-01",
+    "original_id": "WSTG-IDNT-01",
+    "version": "4.2",
+    "title": "Test Role Definitions",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md.txt",
+    "source_sha256": "d366d2868f018169ab3c58a3827dd5c45b2518d0c6e558fc9844cfeaa44c866e",
+    "objectives_original": "- Identify and document roles used by the application.\n- Attempt to switch, change, or access another role.\n- Review the granularity of the roles and the needs behind the permissions given.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-IDNT-01",
+        "original_id": "WSTG-IDNT-01",
+        "version": "4.2",
+        "title": "Test Role Definitions",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md.txt",
+        "source_sha256": "d366d2868f018169ab3c58a3827dd5c45b2518d0c6e558fc9844cfeaa44c866e",
+        "objectives_original": "- Identify and document roles used by the application.\n- Attempt to switch, change, or access another role.\n- Review the granularity of the roles and the needs behind the permissions given.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-IDNT-02",
+    "original_id": "WSTG-IDNT-02",
+    "version": "4.2",
+    "title": "Test User Registration Process",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md.txt",
+    "source_sha256": "ff300add71d7efb2935764656976f6916e51cbd5fd3aeb5f5b5381f9213f94df",
+    "objectives_original": "- Verify that the identity requirements for user registration are aligned with business and security requirements.\n- Validate the registration process.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-IDNT-02",
+        "original_id": "WSTG-IDNT-02",
+        "version": "4.2",
+        "title": "Test User Registration Process",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md.txt",
+        "source_sha256": "ff300add71d7efb2935764656976f6916e51cbd5fd3aeb5f5b5381f9213f94df",
+        "objectives_original": "- Verify that the identity requirements for user registration are aligned with business and security requirements.\n- Validate the registration process.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-IDNT-03",
+    "original_id": "WSTG-IDNT-03",
+    "version": "4.2",
+    "title": "Test Account Provisioning Process",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process.md.txt",
+    "source_sha256": "0a0162aa5919eea7bf1fe1b56c32b986b86522150210b5b02ce57d92d78702ae",
+    "objectives_original": "- Verify which accounts may provision other accounts and of what type.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-IDNT-03",
+        "original_id": "WSTG-IDNT-03",
+        "version": "4.2",
+        "title": "Test Account Provisioning Process",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process.md.txt",
+        "source_sha256": "0a0162aa5919eea7bf1fe1b56c32b986b86522150210b5b02ce57d92d78702ae",
+        "objectives_original": "- Verify which accounts may provision other accounts and of what type.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-IDNT-04",
+    "original_id": "WSTG-IDNT-04",
+    "version": "4.2",
+    "title": "Testing for Account Enumeration and Guessable User Account",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md.txt",
+    "source_sha256": "9cbc28c360a8ff639a1247cfb949542251748521b0b58430d1fc3679e7d1c171",
+    "objectives_original": "- Review processes that pertain to user identification (*e.g.* registration, login, etc.).\n- Enumerate users where possible through response analysis.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-IDNT-04",
+        "original_id": "WSTG-IDNT-04",
+        "version": "4.2",
+        "title": "Testing for Account Enumeration and Guessable User Account",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md.txt",
+        "source_sha256": "9cbc28c360a8ff639a1247cfb949542251748521b0b58430d1fc3679e7d1c171",
+        "objectives_original": "- Review processes that pertain to user identification (*e.g.* registration, login, etc.).\n- Enumerate users where possible through response analysis.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-IDNT-05",
+    "original_id": "WSTG-IDNT-05",
+    "version": "4.2",
+    "title": "Testing for Weak or Unenforced Username Policy",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/05-Testing_for_Weak_or_Unenforced_Username_Policy.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/05-Testing_for_Weak_or_Unenforced_Username_Policy.md.txt",
+    "source_sha256": "773811d5d1c0d1a1931da78310714e74531bdec63e9e43d001a22bc6f3822cb6",
+    "objectives_original": "- Determine whether a consistent account name structure renders the application vulnerable to account enumeration.\n- Determine whether the application's error messages permit account enumeration.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-IDNT-05",
+        "original_id": "WSTG-IDNT-05",
+        "version": "4.2",
+        "title": "Testing for Weak or Unenforced Username Policy",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/05-Testing_for_Weak_or_Unenforced_Username_Policy.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/05-Testing_for_Weak_or_Unenforced_Username_Policy.md.txt",
+        "source_sha256": "773811d5d1c0d1a1931da78310714e74531bdec63e9e43d001a22bc6f3822cb6",
+        "objectives_original": "- Determine whether a consistent account name structure renders the application vulnerable to account enumeration.\n- Determine whether the application's error messages permit account enumeration.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-01",
+    "original_id": "WSTG-ATHN-01",
+    "version": "4.2",
+    "title": "Testing for Credentials Transported over an Encrypted Channel",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md.txt",
+    "source_sha256": "ce8a1a45596efd78a6e9bc39476809652d4b0c926c11d59346623499cd4e694e",
+    "objectives_original": "- Assess whether any use case of the web site or application causes the server or the client to exchange credentials without encryption.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-01",
+        "original_id": "WSTG-ATHN-01",
+        "version": "4.2",
+        "title": "Testing for Credentials Transported over an Encrypted Channel",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md.txt",
+        "source_sha256": "ce8a1a45596efd78a6e9bc39476809652d4b0c926c11d59346623499cd4e694e",
+        "objectives_original": "- Assess whether any use case of the web site or application causes the server or the client to exchange credentials without encryption.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-02",
+    "original_id": "WSTG-ATHN-02",
+    "version": "4.2",
+    "title": "Testing for Default Credentials",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md.txt",
+    "source_sha256": "96537dfb006e02064783a9cc713f7fd9d83bd5f3f4669517076fd9afe950b906",
+    "objectives_original": "- Enumerate the applications for default credentials and validate if they still exist.\n- Review and assess new user accounts and if they are created with any defaults or identifiable patterns.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-02",
+        "original_id": "WSTG-ATHN-02",
+        "version": "4.2",
+        "title": "Testing for Default Credentials",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md.txt",
+        "source_sha256": "96537dfb006e02064783a9cc713f7fd9d83bd5f3f4669517076fd9afe950b906",
+        "objectives_original": "- Enumerate the applications for default credentials and validate if they still exist.\n- Review and assess new user accounts and if they are created with any defaults or identifiable patterns.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-03",
+    "original_id": "WSTG-ATHN-03",
+    "version": "4.2",
+    "title": "Testing for Weak Lock Out Mechanism",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.md.txt",
+    "source_sha256": "3a278132afd6c6efbde5d661f86d6e97e7f7976388fb1d00e452f03929a9a87b",
+    "objectives_original": "- Evaluate the account lockout mechanism's ability to mitigate brute force password guessing.\n- Evaluate the unlock mechanism's resistance to unauthorized account unlocking.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-03",
+        "original_id": "WSTG-ATHN-03",
+        "version": "4.2",
+        "title": "Testing for Weak Lock Out Mechanism",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.md.txt",
+        "source_sha256": "3a278132afd6c6efbde5d661f86d6e97e7f7976388fb1d00e452f03929a9a87b",
+        "objectives_original": "- Evaluate the account lockout mechanism's ability to mitigate brute force password guessing.\n- Evaluate the unlock mechanism's resistance to unauthorized account unlocking.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-04",
+    "original_id": "WSTG-ATHN-04",
+    "version": "4.2",
+    "title": "Testing for Bypassing Authentication Schema",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md.txt",
+    "source_sha256": "23b33b14f92d21d14dd355b6127c0c51a98216a62b9aac0e8bb7ec61b6d00918",
+    "objectives_original": "- Ensure that authentication is applied across all services that require it.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-04",
+        "original_id": "WSTG-ATHN-04",
+        "version": "4.2",
+        "title": "Testing for Bypassing Authentication Schema",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md.txt",
+        "source_sha256": "23b33b14f92d21d14dd355b6127c0c51a98216a62b9aac0e8bb7ec61b6d00918",
+        "objectives_original": "- Ensure that authentication is applied across all services that require it.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-05",
+    "original_id": "WSTG-ATHN-05",
+    "version": "4.2",
+    "title": "Testing for Vulnerable Remember Password",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.md.txt",
+    "source_sha256": "de2b2dc84b0f53e06f6be4b16075cc0d10455d2558a487591418bd3e7fbae00f",
+    "objectives_original": "- Validate that the generated session is managed securely and do not put the user's credentials in danger.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-05",
+        "original_id": "WSTG-ATHN-05",
+        "version": "4.2",
+        "title": "Testing for Vulnerable Remember Password",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.md.txt",
+        "source_sha256": "de2b2dc84b0f53e06f6be4b16075cc0d10455d2558a487591418bd3e7fbae00f",
+        "objectives_original": "- Validate that the generated session is managed securely and do not put the user's credentials in danger.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-06",
+    "original_id": "WSTG-ATHN-06",
+    "version": "4.2",
+    "title": "Testing for Browser Cache Weaknesses",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.md.txt",
+    "source_sha256": "5a6731e0de0de4cce346e0cf77536544bd86d17bf00f3f287934cb9be7738f68",
+    "objectives_original": "- Review if the application stores sensitive information on the client-side.\n- Review if access can occur without authorization.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-06",
+        "original_id": "WSTG-ATHN-06",
+        "version": "4.2",
+        "title": "Testing for Browser Cache Weaknesses",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.md.txt",
+        "source_sha256": "5a6731e0de0de4cce346e0cf77536544bd86d17bf00f3f287934cb9be7738f68",
+        "objectives_original": "- Review if the application stores sensitive information on the client-side.\n- Review if access can occur without authorization.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-07",
+    "original_id": "WSTG-ATHN-07",
+    "version": "4.2",
+    "title": "Testing for Weak Password Policy",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/07-Testing_for_Weak_Password_Policy.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/07-Testing_for_Weak_Password_Policy.md.txt",
+    "source_sha256": "c137b8bc64476766911c9f50a37fe546c66cb7ff7fefa51a84c6e880923b573c",
+    "objectives_original": "- Determine the resistance of the application against brute force password guessing using available password dictionaries by evaluating the length, complexity, reuse, and aging requirements of passwords.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-07",
+        "original_id": "WSTG-ATHN-07",
+        "version": "4.2",
+        "title": "Testing for Weak Password Policy",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/07-Testing_for_Weak_Password_Policy.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/07-Testing_for_Weak_Password_Policy.md.txt",
+        "source_sha256": "c137b8bc64476766911c9f50a37fe546c66cb7ff7fefa51a84c6e880923b573c",
+        "objectives_original": "- Determine the resistance of the application against brute force password guessing using available password dictionaries by evaluating the length, complexity, reuse, and aging requirements of passwords.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-08",
+    "original_id": "WSTG-ATHN-08",
+    "version": "4.2",
+    "title": "Testing for Weak Security Question Answer",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.md.txt",
+    "source_sha256": "3ef1758713fb8ec6d009d9468ff6d89a739633856238e50ad5672d553a481ed3",
+    "objectives_original": "- Determine the complexity and how straight-forward the questions are.\n- Assess possible user answers and brute force capabilities.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-08",
+        "original_id": "WSTG-ATHN-08",
+        "version": "4.2",
+        "title": "Testing for Weak Security Question Answer",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.md.txt",
+        "source_sha256": "3ef1758713fb8ec6d009d9468ff6d89a739633856238e50ad5672d553a481ed3",
+        "objectives_original": "- Determine the complexity and how straight-forward the questions are.\n- Assess possible user answers and brute force capabilities.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-09",
+    "original_id": "WSTG-ATHN-09",
+    "version": "4.2",
+    "title": "Testing for Weak Password Change or Reset Functionalities",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md.txt",
+    "source_sha256": "39bf233c6c0bd95e750babcdae5fa58e2065ae962674c2bfe2822c3bad7f1acf",
+    "objectives_original": "- Determine the resistance of the application to subversion of the account change process allowing someone to change the password of an account.\n- Determine the resistance of the passwords reset functionality against guessing or bypassing.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-09",
+        "original_id": "WSTG-ATHN-09",
+        "version": "4.2",
+        "title": "Testing for Weak Password Change or Reset Functionalities",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md.txt",
+        "source_sha256": "39bf233c6c0bd95e750babcdae5fa58e2065ae962674c2bfe2822c3bad7f1acf",
+        "objectives_original": "- Determine the resistance of the application to subversion of the account change process allowing someone to change the password of an account.\n- Determine the resistance of the passwords reset functionality against guessing or bypassing.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHN-10",
+    "original_id": "WSTG-ATHN-10",
+    "version": "4.2",
+    "title": "Testing for Weaker Authentication in Alternative Channel",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.md.txt",
+    "source_sha256": "2b72252e07156b3758a9acf8c94c8703c4a6b97620026a0d59bd45e448d26a32",
+    "objectives_original": "- Identify alternative authentication channels.\n- Assess the security measures used and if any bypasses exists on the alternative channels.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHN-10",
+        "original_id": "WSTG-ATHN-10",
+        "version": "4.2",
+        "title": "Testing for Weaker Authentication in Alternative Channel",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/04-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/04-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.md.txt",
+        "source_sha256": "2b72252e07156b3758a9acf8c94c8703c4a6b97620026a0d59bd45e448d26a32",
+        "objectives_original": "- Identify alternative authentication channels.\n- Assess the security measures used and if any bypasses exists on the alternative channels.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHZ-01",
+    "original_id": "WSTG-ATHZ-01",
+    "version": "4.2",
+    "title": "Testing Directory Traversal File Include",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md.txt",
+    "source_sha256": "cb42d248a9fc823cc5c752a16130748cee5047e0b5263c6b6bd7119657dbdbbc",
+    "objectives_original": "- Identify injection points that pertain to path traversal.\n- Assess bypassing techniques and identify the extent of path traversal.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHZ-01",
+        "original_id": "WSTG-ATHZ-01",
+        "version": "4.2",
+        "title": "Testing Directory Traversal File Include",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md.txt",
+        "source_sha256": "cb42d248a9fc823cc5c752a16130748cee5047e0b5263c6b6bd7119657dbdbbc",
+        "objectives_original": "- Identify injection points that pertain to path traversal.\n- Assess bypassing techniques and identify the extent of path traversal.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHZ-02",
+    "original_id": "WSTG-ATHZ-02",
+    "version": "4.2",
+    "title": "Testing for Bypassing Authorization Schema",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md.txt",
+    "source_sha256": "c7c729479c73a269591883a524be448e782f9c215b2ee775451704925df0fd08",
+    "objectives_original": "- Assess if horizontal or vertical access is possible.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHZ-02",
+        "original_id": "WSTG-ATHZ-02",
+        "version": "4.2",
+        "title": "Testing for Bypassing Authorization Schema",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md.txt",
+        "source_sha256": "c7c729479c73a269591883a524be448e782f9c215b2ee775451704925df0fd08",
+        "objectives_original": "- Assess if horizontal or vertical access is possible.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHZ-03",
+    "original_id": "WSTG-ATHZ-03",
+    "version": "4.2",
+    "title": "Testing for Privilege Escalation",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation.md.txt",
+    "source_sha256": "6204bc854c991ac494ef40dc6dda5ee619f9af4f86d0f2febefda7d307554c5f",
+    "objectives_original": "- Identify injection points related to privilege manipulation.\n- Fuzz or otherwise attempt to bypass security measures.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHZ-03",
+        "original_id": "WSTG-ATHZ-03",
+        "version": "4.2",
+        "title": "Testing for Privilege Escalation",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation.md.txt",
+        "source_sha256": "6204bc854c991ac494ef40dc6dda5ee619f9af4f86d0f2febefda7d307554c5f",
+        "objectives_original": "- Identify injection points related to privilege manipulation.\n- Fuzz or otherwise attempt to bypass security measures.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ATHZ-04",
+    "original_id": "WSTG-ATHZ-04",
+    "version": "4.2",
+    "title": "Testing for Insecure Direct Object References",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References.md.txt",
+    "source_sha256": "c57ae867049144eebdbd1381f561158c2c131f5e0c2aa3877b5c41591e082f49",
+    "objectives_original": "- Identify points where object references may occur.\n- Assess the access control measures and if they're vulnerable to IDOR.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ATHZ-04",
+        "original_id": "WSTG-ATHZ-04",
+        "version": "4.2",
+        "title": "Testing for Insecure Direct Object References",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References.md.txt",
+        "source_sha256": "c57ae867049144eebdbd1381f561158c2c131f5e0c2aa3877b5c41591e082f49",
+        "objectives_original": "- Identify points where object references may occur.\n- Assess the access control measures and if they're vulnerable to IDOR.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-01",
+    "original_id": "WSTG-SESS-01",
+    "version": "4.2",
+    "title": "Testing for Session Management Schema",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md.txt",
+    "source_sha256": "ba8c8ce01c66cbcffa80840dbf6f1d9b5b00f5d5634931bffc5c493227280e3a",
+    "objectives_original": "- Gather session tokens, for the same user and for different users where possible.\n- Analyze and ensure that enough randomness exists to stop session forging attacks.\n- Modify cookies that are not signed and contain information that can be manipulated.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-01",
+        "original_id": "WSTG-SESS-01",
+        "version": "4.2",
+        "title": "Testing for Session Management Schema",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md.txt",
+        "source_sha256": "ba8c8ce01c66cbcffa80840dbf6f1d9b5b00f5d5634931bffc5c493227280e3a",
+        "objectives_original": "- Gather session tokens, for the same user and for different users where possible.\n- Analyze and ensure that enough randomness exists to stop session forging attacks.\n- Modify cookies that are not signed and contain information that can be manipulated.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-02",
+    "original_id": "WSTG-SESS-02",
+    "version": "4.2",
+    "title": "Testing for Cookies Attributes",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md.txt",
+    "source_sha256": "ebdf5d08a61df0abaf824c8df3cb01aa52412c96205b7913b986eb7219ccac56",
+    "objectives_original": "- Ensure that the proper security configuration is set for cookies.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-02",
+        "original_id": "WSTG-SESS-02",
+        "version": "4.2",
+        "title": "Testing for Cookies Attributes",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md.txt",
+        "source_sha256": "ebdf5d08a61df0abaf824c8df3cb01aa52412c96205b7913b986eb7219ccac56",
+        "objectives_original": "- Ensure that the proper security configuration is set for cookies.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-03",
+    "original_id": "WSTG-SESS-03",
+    "version": "4.2",
+    "title": "Testing for Session Fixation",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/03-Testing_for_Session_Fixation.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/03-Testing_for_Session_Fixation.md.txt",
+    "source_sha256": "49873ce6b28c6c7d7f2e2c393984a6d04ecd9742f13bcf3963a356cc15200bc0",
+    "objectives_original": "- Analyze the authentication mechanism and its flow.\n- Force cookies and assess the impact.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-03",
+        "original_id": "WSTG-SESS-03",
+        "version": "4.2",
+        "title": "Testing for Session Fixation",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/03-Testing_for_Session_Fixation.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/03-Testing_for_Session_Fixation.md.txt",
+        "source_sha256": "49873ce6b28c6c7d7f2e2c393984a6d04ecd9742f13bcf3963a356cc15200bc0",
+        "objectives_original": "- Analyze the authentication mechanism and its flow.\n- Force cookies and assess the impact.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-04",
+    "original_id": "WSTG-SESS-04",
+    "version": "4.2",
+    "title": "Testing for Exposed Session Variables",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/04-Testing_for_Exposed_Session_Variables.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/04-Testing_for_Exposed_Session_Variables.md.txt",
+    "source_sha256": "cec1e22f68653f026f2d1e650fbe2fee8b152eab0e149bb3c2b2428e69d56cd2",
+    "objectives_original": "- Ensure that proper encryption is implemented.\n- Review the caching configuration.\n- Assess the channel and methods' security.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-04",
+        "original_id": "WSTG-SESS-04",
+        "version": "4.2",
+        "title": "Testing for Exposed Session Variables",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/04-Testing_for_Exposed_Session_Variables.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/04-Testing_for_Exposed_Session_Variables.md.txt",
+        "source_sha256": "cec1e22f68653f026f2d1e650fbe2fee8b152eab0e149bb3c2b2428e69d56cd2",
+        "objectives_original": "- Ensure that proper encryption is implemented.\n- Review the caching configuration.\n- Assess the channel and methods' security.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-05",
+    "original_id": "WSTG-SESS-05",
+    "version": "4.2",
+    "title": "Testing for Cross Site Request Forgery",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md.txt",
+    "source_sha256": "6b1800e76bdc24a6a75a975eb257b4755e3da0445bfb9e6d7a60ab22ca902c60",
+    "objectives_original": "- Determine whether it is possible to initiate requests on a user's behalf that are not initiated by the user.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-05",
+        "original_id": "WSTG-SESS-05",
+        "version": "4.2",
+        "title": "Testing for Cross Site Request Forgery",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md.txt",
+        "source_sha256": "6b1800e76bdc24a6a75a975eb257b4755e3da0445bfb9e6d7a60ab22ca902c60",
+        "objectives_original": "- Determine whether it is possible to initiate requests on a user's behalf that are not initiated by the user.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-06",
+    "original_id": "WSTG-SESS-06",
+    "version": "4.2",
+    "title": "Testing for Logout Functionality",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/06-Testing_for_Logout_Functionality.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/06-Testing_for_Logout_Functionality.md.txt",
+    "source_sha256": "0a4d6204d1661d40a146af02c4c6b6620653840d560f0409de8a083dfa971c4c",
+    "objectives_original": "- Assess the logout UI.\n- Analyze the session timeout and if the session is properly killed after logout.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-06",
+        "original_id": "WSTG-SESS-06",
+        "version": "4.2",
+        "title": "Testing for Logout Functionality",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/06-Testing_for_Logout_Functionality.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/06-Testing_for_Logout_Functionality.md.txt",
+        "source_sha256": "0a4d6204d1661d40a146af02c4c6b6620653840d560f0409de8a083dfa971c4c",
+        "objectives_original": "- Assess the logout UI.\n- Analyze the session timeout and if the session is properly killed after logout.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-07",
+    "original_id": "WSTG-SESS-07",
+    "version": "4.2",
+    "title": "Testing Session Timeout",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout.md.txt",
+    "source_sha256": "f314efb6a7ce56a0311988c1185a890ec2ccd2616995eb0c5a51fa4b1de3b55f",
+    "objectives_original": "- Validate that a hard session timeout exists.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-07",
+        "original_id": "WSTG-SESS-07",
+        "version": "4.2",
+        "title": "Testing Session Timeout",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout.md.txt",
+        "source_sha256": "f314efb6a7ce56a0311988c1185a890ec2ccd2616995eb0c5a51fa4b1de3b55f",
+        "objectives_original": "- Validate that a hard session timeout exists.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-08",
+    "original_id": "WSTG-SESS-08",
+    "version": "4.2",
+    "title": "Testing for Session Puzzling",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/08-Testing_for_Session_Puzzling.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/08-Testing_for_Session_Puzzling.md.txt",
+    "source_sha256": "a75afa7af6bf82f9a69f83e419fbc99b623acb0e03c6a308bcb0f0700b6aa275",
+    "objectives_original": "- Identify all session variables.\n- Break the logical flow of session generation.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-08",
+        "original_id": "WSTG-SESS-08",
+        "version": "4.2",
+        "title": "Testing for Session Puzzling",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/08-Testing_for_Session_Puzzling.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/08-Testing_for_Session_Puzzling.md.txt",
+        "source_sha256": "a75afa7af6bf82f9a69f83e419fbc99b623acb0e03c6a308bcb0f0700b6aa275",
+        "objectives_original": "- Identify all session variables.\n- Break the logical flow of session generation.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-SESS-09",
+    "original_id": "WSTG-SESS-09",
+    "version": "4.2",
+    "title": "Testing for Session Hijacking",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking.md.txt",
+    "source_sha256": "72ed90b7eb8c152be22aeb8a1077704c6883dcb3236cfc2fe23e6f050aa71b52",
+    "objectives_original": "- Identify vulnerable session cookies.\n- Hijack vulnerable cookies and assess the risk level.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-SESS-09",
+        "original_id": "WSTG-SESS-09",
+        "version": "4.2",
+        "title": "Testing for Session Hijacking",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking.md.txt",
+        "source_sha256": "72ed90b7eb8c152be22aeb8a1077704c6883dcb3236cfc2fe23e6f050aa71b52",
+        "objectives_original": "- Identify vulnerable session cookies.\n- Hijack vulnerable cookies and assess the risk level.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-01",
+    "original_id": "WSTG-INPV-01",
+    "version": "4.2",
+    "title": "Testing for Reflected Cross Site Scripting",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md.txt",
+    "source_sha256": "f5b80fda309f3294d7058526ad0ab4379fc70c3b2a30afd3fe1026a79bb7a8af",
+    "objectives_original": "- Identify variables that are reflected in responses.\n- Assess the input they accept and the encoding that gets applied on return (if any).",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-01",
+        "original_id": "WSTG-INPV-01",
+        "version": "4.2",
+        "title": "Testing for Reflected Cross Site Scripting",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md.txt",
+        "source_sha256": "f5b80fda309f3294d7058526ad0ab4379fc70c3b2a30afd3fe1026a79bb7a8af",
+        "objectives_original": "- Identify variables that are reflected in responses.\n- Assess the input they accept and the encoding that gets applied on return (if any).",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-02",
+    "original_id": "WSTG-INPV-02",
+    "version": "4.2",
+    "title": "Testing for Stored Cross Site Scripting",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md.txt",
+    "source_sha256": "f9d694a3afc7714df165f3395deed43779704e8069c10922d179a270cdb49cf1",
+    "objectives_original": "- Identify stored input that is reflected on the client-side.\n- Assess the input they accept and the encoding that gets applied on return (if any).",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-02",
+        "original_id": "WSTG-INPV-02",
+        "version": "4.2",
+        "title": "Testing for Stored Cross Site Scripting",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md.txt",
+        "source_sha256": "f9d694a3afc7714df165f3395deed43779704e8069c10922d179a270cdb49cf1",
+        "objectives_original": "- Identify stored input that is reflected on the client-side.\n- Assess the input they accept and the encoding that gets applied on return (if any).",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-03",
+    "original_id": "WSTG-INPV-03",
+    "version": "4.2",
+    "title": "Testing for HTTP Verb Tampering",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_HTTP_Verb_Tampering.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_HTTP_Verb_Tampering.md.txt",
+    "source_sha256": "6ca371624303058eca5c551266a46bc06fa4e892e875399c63593c7c2db6a958",
+    "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-03",
+        "original_id": "WSTG-INPV-03",
+        "version": "4.2",
+        "title": "Testing for HTTP Verb Tampering",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_HTTP_Verb_Tampering.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_HTTP_Verb_Tampering.md.txt",
+        "source_sha256": "6ca371624303058eca5c551266a46bc06fa4e892e875399c63593c7c2db6a958",
+        "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-04",
+    "original_id": "WSTG-INPV-04",
+    "version": "4.2",
+    "title": "Testing for HTTP Parameter Pollution",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution.md.txt",
+    "source_sha256": "a9b8df404082ecb4203a299758be9a3e97a472cacab6572d612f3af6f9186381",
+    "objectives_original": "- Identify the backend and the parsing method used.\n- Assess injection points and try bypassing input filters using HPP.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-04",
+        "original_id": "WSTG-INPV-04",
+        "version": "4.2",
+        "title": "Testing for HTTP Parameter Pollution",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution.md.txt",
+        "source_sha256": "a9b8df404082ecb4203a299758be9a3e97a472cacab6572d612f3af6f9186381",
+        "objectives_original": "- Identify the backend and the parsing method used.\n- Assess injection points and try bypassing input filters using HPP.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-05",
+    "original_id": "WSTG-INPV-05",
+    "version": "4.2",
+    "title": "Testing for SQL Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md.txt",
+    "source_sha256": "501ea437fcce7197ff5f993fc12d16817ba3d32da7494f1df559f562fb2d7ad3",
+    "objectives_original": "- Identify SQL injection points.\n- Assess the severity of the injection and the level of access that can be achieved through it.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-05",
+        "original_id": "WSTG-INPV-05",
+        "version": "4.2",
+        "title": "Testing for SQL Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md.txt",
+        "source_sha256": "501ea437fcce7197ff5f993fc12d16817ba3d32da7494f1df559f562fb2d7ad3",
+        "objectives_original": "- Identify SQL injection points.\n- Assess the severity of the injection and the level of access that can be achieved through it.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-06",
+    "original_id": "WSTG-INPV-06",
+    "version": "4.2",
+    "title": "Testing for LDAP Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection.md.txt",
+    "source_sha256": "15d68e23f3fe1c5469b4ee01a3936807c2a1ebaa7b160f192c5a1699462942b5",
+    "objectives_original": "- Identify LDAP injection points.\n- Assess the severity of the injection.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-06",
+        "original_id": "WSTG-INPV-06",
+        "version": "4.2",
+        "title": "Testing for LDAP Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection.md.txt",
+        "source_sha256": "15d68e23f3fe1c5469b4ee01a3936807c2a1ebaa7b160f192c5a1699462942b5",
+        "objectives_original": "- Identify LDAP injection points.\n- Assess the severity of the injection.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-07",
+    "original_id": "WSTG-INPV-07",
+    "version": "4.2",
+    "title": "Testing for XML Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection.md.txt",
+    "source_sha256": "fcc374ccb81cff258418386681885eefa198d2628a503d6b4f6db2c72ea63d05",
+    "objectives_original": "- Identify XML injection points.\n- Assess the types of exploits that can be attained and their severities.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-07",
+        "original_id": "WSTG-INPV-07",
+        "version": "4.2",
+        "title": "Testing for XML Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection.md.txt",
+        "source_sha256": "fcc374ccb81cff258418386681885eefa198d2628a503d6b4f6db2c72ea63d05",
+        "objectives_original": "- Identify XML injection points.\n- Assess the types of exploits that can be attained and their severities.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-08",
+    "original_id": "WSTG-INPV-08",
+    "version": "4.2",
+    "title": "Testing for SSI Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection.md.txt",
+    "source_sha256": "b06f12aef002120bde9471d4d4c15f29004598d502e46f4996a2806a1c37176b",
+    "objectives_original": "- Identify SSI injection points.\n- Assess the severity of the injection.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-08",
+        "original_id": "WSTG-INPV-08",
+        "version": "4.2",
+        "title": "Testing for SSI Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection.md.txt",
+        "source_sha256": "b06f12aef002120bde9471d4d4c15f29004598d502e46f4996a2806a1c37176b",
+        "objectives_original": "- Identify SSI injection points.\n- Assess the severity of the injection.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-09",
+    "original_id": "WSTG-INPV-09",
+    "version": "4.2",
+    "title": "Testing for XPath Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection.md.txt",
+    "source_sha256": "32292bd6dbaf492c4d9647d2a18825688fb21efeace75a2ace50f7aa86378c03",
+    "objectives_original": "- Identify XPATH injection points.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-09",
+        "original_id": "WSTG-INPV-09",
+        "version": "4.2",
+        "title": "Testing for XPath Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection.md.txt",
+        "source_sha256": "32292bd6dbaf492c4d9647d2a18825688fb21efeace75a2ace50f7aa86378c03",
+        "objectives_original": "- Identify XPATH injection points.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-10",
+    "original_id": "WSTG-INPV-10",
+    "version": "4.2",
+    "title": "Testing for IMAP SMTP Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection.md.txt",
+    "source_sha256": "8e96e4ac54b57944ae9a27965f25f0dee51554c2a2c4b57a92408800c618de6f",
+    "objectives_original": "- Identify IMAP/SMTP injection points.\n- Understand the data flow and deployment structure of the system.\n- Assess the injection impacts.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-10",
+        "original_id": "WSTG-INPV-10",
+        "version": "4.2",
+        "title": "Testing for IMAP SMTP Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection.md.txt",
+        "source_sha256": "8e96e4ac54b57944ae9a27965f25f0dee51554c2a2c4b57a92408800c618de6f",
+        "objectives_original": "- Identify IMAP/SMTP injection points.\n- Understand the data flow and deployment structure of the system.\n- Assess the injection impacts.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-11",
+    "original_id": "WSTG-INPV-11",
+    "version": "4.2",
+    "title": "Testing for Code Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection.md.txt",
+    "source_sha256": "026286fa8a233554c4a0ab1870740e08ea0f4744f14611eba8fcd82b4bd713e0",
+    "objectives_original": "- Identify injection points where you can inject code into the application.\n- Assess the injection severity.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-11",
+        "original_id": "WSTG-INPV-11",
+        "version": "4.2",
+        "title": "Testing for Code Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection.md.txt",
+        "source_sha256": "026286fa8a233554c4a0ab1870740e08ea0f4744f14611eba8fcd82b4bd713e0",
+        "objectives_original": "- Identify injection points where you can inject code into the application.\n- Assess the injection severity.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-12",
+    "original_id": "WSTG-INPV-12",
+    "version": "4.2",
+    "title": "Testing for Command Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection.md.txt",
+    "source_sha256": "86d068bebc9b57f6513764bcf6fda9895490985145e4d7f10357957e138b9fcf",
+    "objectives_original": "- Identify and assess the command injection points.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-12",
+        "original_id": "WSTG-INPV-12",
+        "version": "4.2",
+        "title": "Testing for Command Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection.md.txt",
+        "source_sha256": "86d068bebc9b57f6513764bcf6fda9895490985145e4d7f10357957e138b9fcf",
+        "objectives_original": "- Identify and assess the command injection points.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-13",
+    "original_id": "WSTG-INPV-13",
+    "version": "4.2",
+    "title": "Testing for Buffer Overflow",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.md.txt",
+    "source_sha256": "19a64ff720dba3eac08470d66db6e7f3f81a091cd427f3013087c2a5eacfe409",
+    "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-13",
+        "original_id": "WSTG-INPV-13",
+        "version": "4.2",
+        "title": "Testing for Buffer Overflow",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.md.txt",
+        "source_sha256": "19a64ff720dba3eac08470d66db6e7f3f81a091cd427f3013087c2a5eacfe409",
+        "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+        "execution_status": "NOT_EXECUTED"
+      },
+      {
+        "scenario_id": "WSTG-v42-INPV-13",
+        "original_id": "WSTG-INPV-13",
+        "version": "4.2",
+        "title": "Testing for Format String Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Format_String_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Format_String_Injection.md.txt",
+        "source_sha256": "f64b12bbcba8509a2ee2e599d2585e5b5a462bf965799c9d095fe4b92ba38741",
+        "objectives_original": "- Assess whether injecting format string conversion specifiers into user-controlled fields causes undesired behaviour from the application.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-14",
+    "original_id": "WSTG-INPV-14",
+    "version": "4.2",
+    "title": "Testing for Incubated Vulnerability",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/14-Testing_for_Incubated_Vulnerability.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/14-Testing_for_Incubated_Vulnerability.md.txt",
+    "source_sha256": "9a31a8d5f1e123baa8dadfdac08d5d3db51faee56a1ae8bfc84a0c373286c4c7",
+    "objectives_original": "- Identify injections that are stored and require a recall step to the stored injection.\n- Understand how a recall step could occur.\n- Set listeners or activate the recall step if possible.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-14",
+        "original_id": "WSTG-INPV-14",
+        "version": "4.2",
+        "title": "Testing for Incubated Vulnerability",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/14-Testing_for_Incubated_Vulnerability.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/14-Testing_for_Incubated_Vulnerability.md.txt",
+        "source_sha256": "9a31a8d5f1e123baa8dadfdac08d5d3db51faee56a1ae8bfc84a0c373286c4c7",
+        "objectives_original": "- Identify injections that are stored and require a recall step to the stored injection.\n- Understand how a recall step could occur.\n- Set listeners or activate the recall step if possible.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-15",
+    "original_id": "WSTG-INPV-15",
+    "version": "4.2",
+    "title": "Testing for HTTP Splitting Smuggling",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling.md.txt",
+    "source_sha256": "1d223baa34b8bb72a9159ee53496fda60ddd4ddc98e23db55e6bbc49dfe3452e",
+    "objectives_original": "- Assess if the application is vulnerable to splitting, identifying what possible attacks are achievable.\n- Assess if the chain of communication is vulnerable to smuggling, identifying what possible attacks are achievable.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-15",
+        "original_id": "WSTG-INPV-15",
+        "version": "4.2",
+        "title": "Testing for HTTP Splitting Smuggling",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling.md.txt",
+        "source_sha256": "1d223baa34b8bb72a9159ee53496fda60ddd4ddc98e23db55e6bbc49dfe3452e",
+        "objectives_original": "- Assess if the application is vulnerable to splitting, identifying what possible attacks are achievable.\n- Assess if the chain of communication is vulnerable to smuggling, identifying what possible attacks are achievable.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-16",
+    "original_id": "WSTG-INPV-16",
+    "version": "4.2",
+    "title": "Testing for HTTP Incoming Requests",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/16-Testing_for_HTTP_Incoming_Requests.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/16-Testing_for_HTTP_Incoming_Requests.md.txt",
+    "source_sha256": "a321fc30b20b6fa3356d7e17b3f60313b30df7a1e7c018ae18f2aabcbc8c9a7a",
+    "objectives_original": "- Monitor all incoming and outgoing HTTP requests to the Web Server to inspect any suspicious requests.\n- Monitor HTTP traffic without changes of end user Browser proxy or client-side application.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-16",
+        "original_id": "WSTG-INPV-16",
+        "version": "4.2",
+        "title": "Testing for HTTP Incoming Requests",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/16-Testing_for_HTTP_Incoming_Requests.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/16-Testing_for_HTTP_Incoming_Requests.md.txt",
+        "source_sha256": "a321fc30b20b6fa3356d7e17b3f60313b30df7a1e7c018ae18f2aabcbc8c9a7a",
+        "objectives_original": "- Monitor all incoming and outgoing HTTP requests to the Web Server to inspect any suspicious requests.\n- Monitor HTTP traffic without changes of end user Browser proxy or client-side application.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-17",
+    "original_id": "WSTG-INPV-17",
+    "version": "4.2",
+    "title": "Testing for Host Header Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection.md.txt",
+    "source_sha256": "86a9349f1fad47a574e0cf7ba36d8f772fb2fa8bfc7a3269e447e866f709d580",
+    "objectives_original": "- Assess if the Host header is being parsed dynamically in the application.\n- Bypass security controls that rely on the header.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-17",
+        "original_id": "WSTG-INPV-17",
+        "version": "4.2",
+        "title": "Testing for Host Header Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection.md.txt",
+        "source_sha256": "86a9349f1fad47a574e0cf7ba36d8f772fb2fa8bfc7a3269e447e866f709d580",
+        "objectives_original": "- Assess if the Host header is being parsed dynamically in the application.\n- Bypass security controls that rely on the header.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-18",
+    "original_id": "WSTG-INPV-18",
+    "version": "4.2",
+    "title": "Testing for Server-side Template Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection.md.txt",
+    "source_sha256": "0f760d6968dcf2f9bca8ae0cd025878eb3b5d90883938763a797068898aba352",
+    "objectives_original": "- Detect template injection vulnerability points.\n- Identify the templating engine.\n- Build the exploit.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-18",
+        "original_id": "WSTG-INPV-18",
+        "version": "4.2",
+        "title": "Testing for Server-side Template Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection.md.txt",
+        "source_sha256": "0f760d6968dcf2f9bca8ae0cd025878eb3b5d90883938763a797068898aba352",
+        "objectives_original": "- Detect template injection vulnerability points.\n- Identify the templating engine.\n- Build the exploit.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-INPV-19",
+    "original_id": "WSTG-INPV-19",
+    "version": "4.2",
+    "title": "Testing for Server-Side Request Forgery",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/19-Testing_for_Server-Side_Request_Forgery.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/19-Testing_for_Server-Side_Request_Forgery.md.txt",
+    "source_sha256": "9cb043be669f7e92d8ebda3b5066f8e92dcf9ffd35e6eeb5b786cf540eb7fdd3",
+    "objectives_original": "- Identify SSRF injection points.\n- Test if the injection points are exploitable.\n- Asses the severity of the vulnerability.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-INPV-19",
+        "original_id": "WSTG-INPV-19",
+        "version": "4.2",
+        "title": "Testing for Server-Side Request Forgery",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/19-Testing_for_Server-Side_Request_Forgery.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/19-Testing_for_Server-Side_Request_Forgery.md.txt",
+        "source_sha256": "9cb043be669f7e92d8ebda3b5066f8e92dcf9ffd35e6eeb5b786cf540eb7fdd3",
+        "objectives_original": "- Identify SSRF injection points.\n- Test if the injection points are exploitable.\n- Asses the severity of the vulnerability.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ERRH-01",
+    "original_id": "WSTG-ERRH-01",
+    "version": "4.2",
+    "title": "Testing for Improper Error Handling",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md.txt",
+    "source_sha256": "0ca6200c765051bb6bcc4954d06926e693aba76f7f2308cac9a381eb10d86787",
+    "objectives_original": "- Identify existing error output.\n- Analyze the different output returned.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ERRH-01",
+        "original_id": "WSTG-ERRH-01",
+        "version": "4.2",
+        "title": "Testing for Improper Error Handling",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md.txt",
+        "source_sha256": "0ca6200c765051bb6bcc4954d06926e693aba76f7f2308cac9a381eb10d86787",
+        "objectives_original": "- Identify existing error output.\n- Analyze the different output returned.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-ERRH-02",
+    "original_id": "WSTG-ERRH-02",
+    "version": "4.2",
+    "title": "Testing for Stack Traces",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md.txt",
+    "source_sha256": "0870843ef5eac6b7812cce55c2abcac94b3978d140dd95472a48a43b812e577e",
+    "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-ERRH-02",
+        "original_id": "WSTG-ERRH-02",
+        "version": "4.2",
+        "title": "Testing for Stack Traces",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md.txt",
+        "source_sha256": "0870843ef5eac6b7812cce55c2abcac94b3978d140dd95472a48a43b812e577e",
+        "objectives_original": "Consultar objetivos y condiciones en el procedimiento original.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CRYP-01",
+    "original_id": "WSTG-CRYP-01",
+    "version": "4.2",
+    "title": "Testing for Weak Transport Layer Security",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md.txt",
+    "source_sha256": "8e7ead083037d664cdb3fae1e21674ae57c007dc5b180f8624a01ebd29833496",
+    "objectives_original": "- Validate the service configuration.\n- Review the digital certificate's cryptographic strength and validity.\n- Ensure that the TLS security is not bypassable and is properly implemented across the application.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CRYP-01",
+        "original_id": "WSTG-CRYP-01",
+        "version": "4.2",
+        "title": "Testing for Weak Transport Layer Security",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md.txt",
+        "source_sha256": "8e7ead083037d664cdb3fae1e21674ae57c007dc5b180f8624a01ebd29833496",
+        "objectives_original": "- Validate the service configuration.\n- Review the digital certificate's cryptographic strength and validity.\n- Ensure that the TLS security is not bypassable and is properly implemented across the application.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CRYP-02",
+    "original_id": "WSTG-CRYP-02",
+    "version": "4.2",
+    "title": "Testing for Padding Oracle",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md.txt",
+    "source_sha256": "99ec2008a1cc9356ae20671938e90a5ef797e13a89fddc5e091567a806a6e93f",
+    "objectives_original": "- Identify encrypted messages that rely on padding.\n- Attempt to break the padding of the encrypted messages and analyze the returned error messages for further analysis.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CRYP-02",
+        "original_id": "WSTG-CRYP-02",
+        "version": "4.2",
+        "title": "Testing for Padding Oracle",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md.txt",
+        "source_sha256": "99ec2008a1cc9356ae20671938e90a5ef797e13a89fddc5e091567a806a6e93f",
+        "objectives_original": "- Identify encrypted messages that rely on padding.\n- Attempt to break the padding of the encrypted messages and analyze the returned error messages for further analysis.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CRYP-03",
+    "original_id": "WSTG-CRYP-03",
+    "version": "4.2",
+    "title": "Testing for Sensitive Information Sent via Unencrypted Channels",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/03-Testing_for_Sensitive_Information_Sent_via_Unencrypted_Channels.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/03-Testing_for_Sensitive_Information_Sent_via_Unencrypted_Channels.md.txt",
+    "source_sha256": "bd29dc47eb000341fa921786aa60a6174eee43b44916b34a3aea9b7cc7da28f0",
+    "objectives_original": "- Identify sensitive information transmitted through the various channels.\n- Assess the privacy and security of the channels used.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CRYP-03",
+        "original_id": "WSTG-CRYP-03",
+        "version": "4.2",
+        "title": "Testing for Sensitive Information Sent via Unencrypted Channels",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/03-Testing_for_Sensitive_Information_Sent_via_Unencrypted_Channels.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/03-Testing_for_Sensitive_Information_Sent_via_Unencrypted_Channels.md.txt",
+        "source_sha256": "bd29dc47eb000341fa921786aa60a6174eee43b44916b34a3aea9b7cc7da28f0",
+        "objectives_original": "- Identify sensitive information transmitted through the various channels.\n- Assess the privacy and security of the channels used.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CRYP-04",
+    "original_id": "WSTG-CRYP-04",
+    "version": "4.2",
+    "title": "Testing for Weak Encryption",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md.txt",
+    "source_sha256": "1892f40c812a4266c0be270e0f8706dfd25a69f077e50822736fa1f5b12ec961",
+    "objectives_original": "- Provide a guideline for the identification weak encryption or hashing uses and implementations.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CRYP-04",
+        "original_id": "WSTG-CRYP-04",
+        "version": "4.2",
+        "title": "Testing for Weak Encryption",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md.txt",
+        "source_sha256": "1892f40c812a4266c0be270e0f8706dfd25a69f077e50822736fa1f5b12ec961",
+        "objectives_original": "- Provide a guideline for the identification weak encryption or hashing uses and implementations.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-01",
+    "original_id": "WSTG-BUSL-01",
+    "version": "4.2",
+    "title": "Test Business Logic Data Validation",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md.txt",
+    "source_sha256": "2374d943178834023a01fdf7bd1eec4bb6247d34c610cd858077e70779826418",
+    "objectives_original": "- Identify data injection points.\n- Validate that all checks are occurring on the back end and can't be bypassed.\n- Attempt to break the format of the expected data and analyze how the application is handling it.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-01",
+        "original_id": "WSTG-BUSL-01",
+        "version": "4.2",
+        "title": "Test Business Logic Data Validation",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md.txt",
+        "source_sha256": "2374d943178834023a01fdf7bd1eec4bb6247d34c610cd858077e70779826418",
+        "objectives_original": "- Identify data injection points.\n- Validate that all checks are occurring on the back end and can't be bypassed.\n- Attempt to break the format of the expected data and analyze how the application is handling it.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-02",
+    "original_id": "WSTG-BUSL-02",
+    "version": "4.2",
+    "title": "Test Ability to Forge Requests",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md.txt",
+    "source_sha256": "7845180e14917b28b1b0b5a90570c97ac19d8baa8b2dc998498faad5d5be509b",
+    "objectives_original": "- Review the project documentation looking for guessable, predictable, or hidden functionality of fields.\n- Insert logically valid data in order to bypass normal business logic workflow.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-02",
+        "original_id": "WSTG-BUSL-02",
+        "version": "4.2",
+        "title": "Test Ability to Forge Requests",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md.txt",
+        "source_sha256": "7845180e14917b28b1b0b5a90570c97ac19d8baa8b2dc998498faad5d5be509b",
+        "objectives_original": "- Review the project documentation looking for guessable, predictable, or hidden functionality of fields.\n- Insert logically valid data in order to bypass normal business logic workflow.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-03",
+    "original_id": "WSTG-BUSL-03",
+    "version": "4.2",
+    "title": "Test Integrity Checks",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/03-Test_Integrity_Checks.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/03-Test_Integrity_Checks.md.txt",
+    "source_sha256": "b297a72cc58c96be0c6323afd7e47c2d37fd54773e6fd6f395adc29ce78dc565",
+    "objectives_original": "- Review the project documentation for components of the system that move, store, or handle data.\n- Determine what type of data is logically acceptable by the component and what types the system should guard against.\n- Determine who should be allowed to modify or read that data in each component.\n- Attempt to insert, update, or delete data values used by each component that should not be allowed per the business logic workflow.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-03",
+        "original_id": "WSTG-BUSL-03",
+        "version": "4.2",
+        "title": "Test Integrity Checks",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/03-Test_Integrity_Checks.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/03-Test_Integrity_Checks.md.txt",
+        "source_sha256": "b297a72cc58c96be0c6323afd7e47c2d37fd54773e6fd6f395adc29ce78dc565",
+        "objectives_original": "- Review the project documentation for components of the system that move, store, or handle data.\n- Determine what type of data is logically acceptable by the component and what types the system should guard against.\n- Determine who should be allowed to modify or read that data in each component.\n- Attempt to insert, update, or delete data values used by each component that should not be allowed per the business logic workflow.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-04",
+    "original_id": "WSTG-BUSL-04",
+    "version": "4.2",
+    "title": "Test for Process Timing",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/04-Test_for_Process_Timing.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/04-Test_for_Process_Timing.md.txt",
+    "source_sha256": "a408e7247ce0c3be0be462c387c16dbe0aa33ff22b0a7fd3a5b099f5e4f09b5b",
+    "objectives_original": "- Review the project documentation for system functionality that may be impacted by time.\n- Develop and execute misuse cases.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-04",
+        "original_id": "WSTG-BUSL-04",
+        "version": "4.2",
+        "title": "Test for Process Timing",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/04-Test_for_Process_Timing.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/04-Test_for_Process_Timing.md.txt",
+        "source_sha256": "a408e7247ce0c3be0be462c387c16dbe0aa33ff22b0a7fd3a5b099f5e4f09b5b",
+        "objectives_original": "- Review the project documentation for system functionality that may be impacted by time.\n- Develop and execute misuse cases.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-05",
+    "original_id": "WSTG-BUSL-05",
+    "version": "4.2",
+    "title": "Test Number of Times a Function Can Be Used Limits",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/05-Test_Number_of_Times_a_Function_Can_Be_Used_Limits.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/05-Test_Number_of_Times_a_Function_Can_Be_Used_Limits.md.txt",
+    "source_sha256": "612fb6775a6d1fd889eb148ee7305a4bf507b119977791aa2ed8a804271c34d0",
+    "objectives_original": "- Identify functions that must set limits to the times they can be called.\n- Assess if there is a logical limit set on the functions and if it is properly validated.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-05",
+        "original_id": "WSTG-BUSL-05",
+        "version": "4.2",
+        "title": "Test Number of Times a Function Can Be Used Limits",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/05-Test_Number_of_Times_a_Function_Can_Be_Used_Limits.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/05-Test_Number_of_Times_a_Function_Can_Be_Used_Limits.md.txt",
+        "source_sha256": "612fb6775a6d1fd889eb148ee7305a4bf507b119977791aa2ed8a804271c34d0",
+        "objectives_original": "- Identify functions that must set limits to the times they can be called.\n- Assess if there is a logical limit set on the functions and if it is properly validated.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-06",
+    "original_id": "WSTG-BUSL-06",
+    "version": "4.2",
+    "title": "Testing for the Circumvention of Work Flows",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/06-Testing_for_the_Circumvention_of_Work_Flows.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/06-Testing_for_the_Circumvention_of_Work_Flows.md.txt",
+    "source_sha256": "156797414fd09130311db00b676582f8ef2927e5d2d2b4fd3b1fc0a52a2abacb",
+    "objectives_original": "- Review the project documentation for methods to skip or go through steps in the application process in a different order from the intended business logic flow.\n- Develop a misuse case and try to circumvent every logic flow identified.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-06",
+        "original_id": "WSTG-BUSL-06",
+        "version": "4.2",
+        "title": "Testing for the Circumvention of Work Flows",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/06-Testing_for_the_Circumvention_of_Work_Flows.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/06-Testing_for_the_Circumvention_of_Work_Flows.md.txt",
+        "source_sha256": "156797414fd09130311db00b676582f8ef2927e5d2d2b4fd3b1fc0a52a2abacb",
+        "objectives_original": "- Review the project documentation for methods to skip or go through steps in the application process in a different order from the intended business logic flow.\n- Develop a misuse case and try to circumvent every logic flow identified.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-07",
+    "original_id": "WSTG-BUSL-07",
+    "version": "4.2",
+    "title": "Test Defenses Against Application Misuse",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/07-Test_Defenses_Against_Application_Misuse.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/07-Test_Defenses_Against_Application_Misuse.md.txt",
+    "source_sha256": "dfa6e96ca413eccf14006d96092cd54a08f6d707019dd51666de392c90b10c38",
+    "objectives_original": "- Generate notes from all tests conducted against the system.\n- Review which tests had a different functionality based on aggressive input.\n- Understand the defenses in place and verify if they are enough to protect the system against bypassing techniques.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-07",
+        "original_id": "WSTG-BUSL-07",
+        "version": "4.2",
+        "title": "Test Defenses Against Application Misuse",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/07-Test_Defenses_Against_Application_Misuse.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/07-Test_Defenses_Against_Application_Misuse.md.txt",
+        "source_sha256": "dfa6e96ca413eccf14006d96092cd54a08f6d707019dd51666de392c90b10c38",
+        "objectives_original": "- Generate notes from all tests conducted against the system.\n- Review which tests had a different functionality based on aggressive input.\n- Understand the defenses in place and verify if they are enough to protect the system against bypassing techniques.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-08",
+    "original_id": "WSTG-BUSL-08",
+    "version": "4.2",
+    "title": "Test Upload of Unexpected File Types",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/08-Test_Upload_of_Unexpected_File_Types.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/08-Test_Upload_of_Unexpected_File_Types.md.txt",
+    "source_sha256": "5cbe56f531c306fe5e788af87d2fa53c8df6801f0f4561b2c52f2faee096705b",
+    "objectives_original": "- Review the project documentation for file types that are rejected by the system.\n- Verify that the unwelcomed file types are rejected and handled safely.\n- Verify that file batch uploads are secure and do not allow any bypass against the set security measures.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-08",
+        "original_id": "WSTG-BUSL-08",
+        "version": "4.2",
+        "title": "Test Upload of Unexpected File Types",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/08-Test_Upload_of_Unexpected_File_Types.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/08-Test_Upload_of_Unexpected_File_Types.md.txt",
+        "source_sha256": "5cbe56f531c306fe5e788af87d2fa53c8df6801f0f4561b2c52f2faee096705b",
+        "objectives_original": "- Review the project documentation for file types that are rejected by the system.\n- Verify that the unwelcomed file types are rejected and handled safely.\n- Verify that file batch uploads are secure and do not allow any bypass against the set security measures.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-BUSL-09",
+    "original_id": "WSTG-BUSL-09",
+    "version": "4.2",
+    "title": "Test Upload of Malicious Files",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.md.txt",
+    "source_sha256": "cfd044004cb6c255876b04d9e3962bef1053085a25eabd1664112ea950742a51",
+    "objectives_original": "- Identify the file upload functionality.\n- Review the project documentation to identify what file types are considered acceptable, and what types would be considered dangerous or malicious.\n  - If documentation is not available then consider what would be appropriate based on the purpose of the application.\n- Determine how the uploaded files are processed.\n- Obtain or create a set of malicious files for testing.\n- Try to upload the malicious files to the application and determine whether it is accepted and processed.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-BUSL-09",
+        "original_id": "WSTG-BUSL-09",
+        "version": "4.2",
+        "title": "Test Upload of Malicious Files",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.md.txt",
+        "source_sha256": "cfd044004cb6c255876b04d9e3962bef1053085a25eabd1664112ea950742a51",
+        "objectives_original": "- Identify the file upload functionality.\n- Review the project documentation to identify what file types are considered acceptable, and what types would be considered dangerous or malicious.\n  - If documentation is not available then consider what would be appropriate based on the purpose of the application.\n- Determine how the uploaded files are processed.\n- Obtain or create a set of malicious files for testing.\n- Try to upload the malicious files to the application and determine whether it is accepted and processed.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-01",
+    "original_id": "WSTG-CLNT-01",
+    "version": "4.2",
+    "title": "Testing for DOM-Based Cross Site Scripting",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md.txt",
+    "source_sha256": "336b01ec6cf2a48030a0ca3db496b99c0f63d0e33987af4165118172a1ef61ff",
+    "objectives_original": "- Identify DOM sinks.\n- Build payloads that pertain to every sink type.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-01",
+        "original_id": "WSTG-CLNT-01",
+        "version": "4.2",
+        "title": "Testing for DOM-Based Cross Site Scripting",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md.txt",
+        "source_sha256": "336b01ec6cf2a48030a0ca3db496b99c0f63d0e33987af4165118172a1ef61ff",
+        "objectives_original": "- Identify DOM sinks.\n- Build payloads that pertain to every sink type.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-02",
+    "original_id": "WSTG-CLNT-02",
+    "version": "4.2",
+    "title": "Testing for JavaScript Execution",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md.txt",
+    "source_sha256": "962e8aaba8ad8702baccdb4254d294e82018378770b2f2c245aba4cab6872339",
+    "objectives_original": "- Identify sinks and possible JavaScript injection points.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-02",
+        "original_id": "WSTG-CLNT-02",
+        "version": "4.2",
+        "title": "Testing for JavaScript Execution",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md.txt",
+        "source_sha256": "962e8aaba8ad8702baccdb4254d294e82018378770b2f2c245aba4cab6872339",
+        "objectives_original": "- Identify sinks and possible JavaScript injection points.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-03",
+    "original_id": "WSTG-CLNT-03",
+    "version": "4.2",
+    "title": "Testing for HTML Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection.md.txt",
+    "source_sha256": "9bbd933688cff3ea6bccd005c0736e47ec2e80bab69aa7bd914ae1ed38ba9bd9",
+    "objectives_original": "- Identify HTML injection points and assess the severity of the injected content.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-03",
+        "original_id": "WSTG-CLNT-03",
+        "version": "4.2",
+        "title": "Testing for HTML Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection.md.txt",
+        "source_sha256": "9bbd933688cff3ea6bccd005c0736e47ec2e80bab69aa7bd914ae1ed38ba9bd9",
+        "objectives_original": "- Identify HTML injection points and assess the severity of the injected content.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-04",
+    "original_id": "WSTG-CLNT-04",
+    "version": "4.2",
+    "title": "Testing for Client-side URL Redirect",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect.md.txt",
+    "source_sha256": "f5038a3fee8c03d0c9f78241eb3455ed4f5794baee2fc0a9b14be45b9abda856",
+    "objectives_original": "- Identify injection points that handle URLs or paths.\n- Assess the locations that the system could redirect to.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-04",
+        "original_id": "WSTG-CLNT-04",
+        "version": "4.2",
+        "title": "Testing for Client-side URL Redirect",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect.md.txt",
+        "source_sha256": "f5038a3fee8c03d0c9f78241eb3455ed4f5794baee2fc0a9b14be45b9abda856",
+        "objectives_original": "- Identify injection points that handle URLs or paths.\n- Assess the locations that the system could redirect to.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-05",
+    "original_id": "WSTG-CLNT-05",
+    "version": "4.2",
+    "title": "Testing for CSS Injection",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection.md.txt",
+    "source_sha256": "7103a58af11cc6cce928690afbff93d2b6aecb9e953a0d76eb5ae7ea565171ba",
+    "objectives_original": "- Identify CSS injection points.\n- Assess the impact of the injection.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-05",
+        "original_id": "WSTG-CLNT-05",
+        "version": "4.2",
+        "title": "Testing for CSS Injection",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection.md.txt",
+        "source_sha256": "7103a58af11cc6cce928690afbff93d2b6aecb9e953a0d76eb5ae7ea565171ba",
+        "objectives_original": "- Identify CSS injection points.\n- Assess the impact of the injection.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-06",
+    "original_id": "WSTG-CLNT-06",
+    "version": "4.2",
+    "title": "Testing for Client-side Resource Manipulation",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md.txt",
+    "source_sha256": "92cbbba8ddbc685ea62d10b08373baf66da6fb949ee21261732e44be649950f6",
+    "objectives_original": "- Identify sinks with weak input validation.\n- Assess the impact of the resource manipulation.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-06",
+        "original_id": "WSTG-CLNT-06",
+        "version": "4.2",
+        "title": "Testing for Client-side Resource Manipulation",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md.txt",
+        "source_sha256": "92cbbba8ddbc685ea62d10b08373baf66da6fb949ee21261732e44be649950f6",
+        "objectives_original": "- Identify sinks with weak input validation.\n- Assess the impact of the resource manipulation.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-07",
+    "original_id": "WSTG-CLNT-07",
+    "version": "4.2",
+    "title": "Testing Cross Origin Resource Sharing",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing.md.txt",
+    "source_sha256": "fd4d8b095b368287677b1d32812867557f0c174fe6aab1b4c17f43d852f3a47f",
+    "objectives_original": "- Identify endpoints that implement CORS.\n- Ensure that the CORS configuration is secure or harmless.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-07",
+        "original_id": "WSTG-CLNT-07",
+        "version": "4.2",
+        "title": "Testing Cross Origin Resource Sharing",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing.md.txt",
+        "source_sha256": "fd4d8b095b368287677b1d32812867557f0c174fe6aab1b4c17f43d852f3a47f",
+        "objectives_original": "- Identify endpoints that implement CORS.\n- Ensure that the CORS configuration is secure or harmless.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-08",
+    "original_id": "WSTG-CLNT-08",
+    "version": "4.2",
+    "title": "Testing for Cross Site Flashing",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/08-Testing_for_Cross_Site_Flashing.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/08-Testing_for_Cross_Site_Flashing.md.txt",
+    "source_sha256": "a559a20928c8423f3bd3afe91829bb88a91fd81816d9100c15ecdca72a3c69e1",
+    "objectives_original": "- Decompile and analyze the application's code.\n- Assess sinks inputs and unsafe method usages.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-08",
+        "original_id": "WSTG-CLNT-08",
+        "version": "4.2",
+        "title": "Testing for Cross Site Flashing",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/08-Testing_for_Cross_Site_Flashing.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/08-Testing_for_Cross_Site_Flashing.md.txt",
+        "source_sha256": "a559a20928c8423f3bd3afe91829bb88a91fd81816d9100c15ecdca72a3c69e1",
+        "objectives_original": "- Decompile and analyze the application's code.\n- Assess sinks inputs and unsafe method usages.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-09",
+    "original_id": "WSTG-CLNT-09",
+    "version": "4.2",
+    "title": "Testing for Clickjacking",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking.md.txt",
+    "source_sha256": "6519efe6e0c75851a8bdddca0643d3f856c4f09daf57cdb7e42c3d5a4f28ec70",
+    "objectives_original": "- Understand security measures in place.\n- Assess how strict the security measures are and if they are bypassable.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-09",
+        "original_id": "WSTG-CLNT-09",
+        "version": "4.2",
+        "title": "Testing for Clickjacking",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking.md.txt",
+        "source_sha256": "6519efe6e0c75851a8bdddca0643d3f856c4f09daf57cdb7e42c3d5a4f28ec70",
+        "objectives_original": "- Understand security measures in place.\n- Assess how strict the security measures are and if they are bypassable.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-10",
+    "original_id": "WSTG-CLNT-10",
+    "version": "4.2",
+    "title": "Testing WebSockets",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/10-Testing_WebSockets.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/10-Testing_WebSockets.md.txt",
+    "source_sha256": "0dbe001904ea0bd5ff4792379cf47a065ce4e9c3a1524bdc255b8fd6b00499e0",
+    "objectives_original": "- Identify the usage of WebSockets.\n- Assess its implementation by using the same tests on normal HTTP channels.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-10",
+        "original_id": "WSTG-CLNT-10",
+        "version": "4.2",
+        "title": "Testing WebSockets",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/10-Testing_WebSockets.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/10-Testing_WebSockets.md.txt",
+        "source_sha256": "0dbe001904ea0bd5ff4792379cf47a065ce4e9c3a1524bdc255b8fd6b00499e0",
+        "objectives_original": "- Identify the usage of WebSockets.\n- Assess its implementation by using the same tests on normal HTTP channels.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-11",
+    "original_id": "WSTG-CLNT-11",
+    "version": "4.2",
+    "title": "Testing Web Messaging",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/11-Testing_Web_Messaging.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/11-Testing_Web_Messaging.md.txt",
+    "source_sha256": "92dd9f5e800902d99602c3c2f9ef8b098109e7a55e022067e7f6d31cdecfc07a",
+    "objectives_original": "- Assess the security of the message's origin.\n- Validate that it's using safe methods and validating its input.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-11",
+        "original_id": "WSTG-CLNT-11",
+        "version": "4.2",
+        "title": "Testing Web Messaging",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/11-Testing_Web_Messaging.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/11-Testing_Web_Messaging.md.txt",
+        "source_sha256": "92dd9f5e800902d99602c3c2f9ef8b098109e7a55e022067e7f6d31cdecfc07a",
+        "objectives_original": "- Assess the security of the message's origin.\n- Validate that it's using safe methods and validating its input.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-12",
+    "original_id": "WSTG-CLNT-12",
+    "version": "4.2",
+    "title": "Testing Browser Storage",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage.md.txt",
+    "source_sha256": "9afccdb63146ad7b24d2fb3c8d5d2ebf1a0222805c9facef71d7608b67981b0e",
+    "objectives_original": "- Determine whether the website is storing sensitive data in client-side storage.\n- The code handling of the storage objects should be examined for possibilities of injection attacks, such as utilizing unvalidated input or vulnerable libraries.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-12",
+        "original_id": "WSTG-CLNT-12",
+        "version": "4.2",
+        "title": "Testing Browser Storage",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage.md.txt",
+        "source_sha256": "9afccdb63146ad7b24d2fb3c8d5d2ebf1a0222805c9facef71d7608b67981b0e",
+        "objectives_original": "- Determine whether the website is storing sensitive data in client-side storage.\n- The code handling of the storage objects should be examined for possibilities of injection attacks, such as utilizing unvalidated input or vulnerable libraries.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-CLNT-13",
+    "original_id": "WSTG-CLNT-13",
+    "version": "4.2",
+    "title": "Testing for Cross Site Script Inclusion",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.md.txt",
+    "source_sha256": "2ee33e6341b81ffd6e0dee8277cc7b21d1e9f37d4e5ee41ad88f08670ab2cb20",
+    "objectives_original": "- Locate sensitive data across the system.\n- Assess the leakage of sensitive data through various techniques.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-CLNT-13",
+        "original_id": "WSTG-CLNT-13",
+        "version": "4.2",
+        "title": "Testing for Cross Site Script Inclusion",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/11-Client-side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/11-Client-side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.md.txt",
+        "source_sha256": "2ee33e6341b81ffd6e0dee8277cc7b21d1e9f37d4e5ee41ad88f08670ab2cb20",
+        "objectives_original": "- Locate sensitive data across the system.\n- Assess the leakage of sensitive data through various techniques.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  },
+  {
+    "scenario_id": "WSTG-v42-APIT-01",
+    "original_id": "WSTG-APIT-01",
+    "version": "4.2",
+    "title": "Testing GraphQL",
+    "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md",
+    "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md.txt",
+    "source_sha256": "c746019cb47a48488b5907cdcd440dc2854f755a232e898afaa5cfb610a4abcf",
+    "objectives_original": "- Assess that a secure and production-ready configuration is deployed.\n- Validate all input fields against generic attacks.\n- Ensure that proper access controls are applied.",
+    "execution_status": "NOT_EXECUTED",
+    "source_variants": [
+      {
+        "scenario_id": "WSTG-v42-APIT-01",
+        "original_id": "WSTG-APIT-01",
+        "version": "4.2",
+        "title": "Testing GraphQL",
+        "source_url": "https://github.com/OWASP/wstg/blob/v4.2/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md",
+        "source_path": "fuentes/wstg/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md.txt",
+        "source_sha256": "c746019cb47a48488b5907cdcd440dc2854f755a232e898afaa5cfb610a4abcf",
+        "objectives_original": "- Assess that a secure and production-ready configuration is deployed.\n- Validate all input fields against generic attacks.\n- Ensure that proper access controls are applied.",
+        "execution_status": "NOT_EXECUTED"
+      }
+    ]
+  }
+]

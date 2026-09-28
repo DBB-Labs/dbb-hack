@@ -1,0 +1,1647 @@
+[
+  {
+    "control_id": "A.5.1",
+    "title": "Políticas de seguridad de la información",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.1.md",
+    "evidence": "Política vigente, aprobación y difusión",
+    "procedure": "Contrastar una obligación comunicada con práctica de un equipo",
+    "adverse_case": "Versión obsoleta comunicada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.2",
+    "title": "Roles y responsabilidades",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.2.md",
+    "evidence": "Roles, autoridad y asignación vigente",
+    "procedure": "Preguntar a responsables quién decide un incidente y verificar mandato",
+    "adverse_case": "Responsable sin autoridad",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.3",
+    "title": "Segregación de funciones",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.3.md",
+    "evidence": "Matriz de incompatibilidades y registros de aprobación",
+    "procedure": "Seguir una operación crítica desde solicitud hasta revisión",
+    "adverse_case": "Una identidad solicita, aprueba y elimina traza",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.4",
+    "title": "Responsabilidades de la dirección",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.4.md",
+    "evidence": "Instrucciones de dirección y seguimiento",
+    "procedure": "Relacionar una instrucción de seguridad con seguimiento y corrección",
+    "adverse_case": "Incumplimiento reiterado sin tratamiento",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.5",
+    "title": "Contacto con autoridades",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.5.md",
+    "evidence": "Registro de autoridades y canal vigente",
+    "procedure": "Validar canal mediante fuente pública sin enviar notificación",
+    "adverse_case": "Contacto obsoleto sin alternativa",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.6",
+    "title": "Contacto con grupos de interés especial",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.6.md",
+    "evidence": "Fuentes sectoriales y acciones derivadas",
+    "procedure": "Seleccionar información recibida y comprobar evaluación de pertinencia",
+    "adverse_case": "Suscripción sin análisis",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.7",
+    "title": "Inteligencia de amenazas",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.7.md",
+    "evidence": "Alertas de amenazas, análisis y decisiones",
+    "procedure": "Trazar una amenaza relevante a evaluación de riesgo o medida",
+    "adverse_case": "Alerta crítica descartada sin criterio",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.8",
+    "title": "Seguridad de la información en gestión de proyectos",
+    "module_id": "ISO2-03-01",
+    "path": "controles/A.5.8.md",
+    "evidence": "Requisitos y revisiones de seguridad de proyectos",
+    "procedure": "Examinar un proyecto reciente desde diseño hasta aceptación",
+    "adverse_case": "Revisión de seguridad solo al publicar",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.9",
+    "title": "Inventario de información y activos asociados",
+    "module_id": "ISO2-03-09",
+    "path": "controles/A.5.9.md",
+    "evidence": "Inventario, propietarios y descubrimiento autorizado",
+    "procedure": "Conciliar muestra en ambas direcciones: inventario y sistemas observados",
+    "adverse_case": "Activo crítico no inventariado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.10",
+    "title": "Uso aceptable de la información y activos",
+    "module_id": "ISO2-03-10",
+    "path": "controles/A.5.10.md",
+    "evidence": "Reglas de uso y evidencia de comunicación",
+    "procedure": "Contrastar manejo de un dato sensible con reglas aprobadas",
+    "adverse_case": "Uso de servicio no permitido",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.11",
+    "title": "Devolución de activos",
+    "module_id": "ISO2-03-10",
+    "path": "controles/A.5.11.md",
+    "evidence": "Registro de salida y devolución de activos",
+    "procedure": "Conciliar última baja con equipos, soportes y accesos pendientes",
+    "adverse_case": "Equipo o copia retenida sin control",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.12",
+    "title": "Clasificación de la información",
+    "module_id": "ISO2-03-10",
+    "path": "controles/A.5.12.md",
+    "evidence": "Esquema de clasificación y activos clasificados",
+    "procedure": "Clasificar muestra por sensibilidad y comparar manejo real",
+    "adverse_case": "Saldo o dato personal tratado como público",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.13",
+    "title": "Etiquetado de la información",
+    "module_id": "ISO2-03-10",
+    "path": "controles/A.5.13.md",
+    "evidence": "Etiquetas y mecanismos de propagación",
+    "procedure": "Seguir etiqueta desde documento a exportación permitida",
+    "adverse_case": "Exportación pierde clasificación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.14",
+    "title": "Transferencia de información",
+    "module_id": "ISO2-03-10",
+    "path": "controles/A.5.14.md",
+    "evidence": "Acuerdos, canales y registros de transferencia",
+    "procedure": "Verificar receptor autorizado y protección de una transferencia",
+    "adverse_case": "Enlace público o destinatario incorrecto",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.15",
+    "title": "Control de acceso",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.5.15.md",
+    "evidence": "Política de acceso y reglas efectivas",
+    "procedure": "Relacionar permisos a necesidad y regla aprobada",
+    "adverse_case": "Acceso concedido por comodidad",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.16",
+    "title": "Gestión de identidades",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.5.16.md",
+    "evidence": "Inventario de identidades y altas/cambios/bajas",
+    "procedure": "Conciliar personas y servicios con identidades activas",
+    "adverse_case": "Cuenta huérfana o compartida sin trazabilidad",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.17",
+    "title": "Información de autenticación",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.5.17.md",
+    "evidence": "Custodia, entrega y ciclo de autenticadores",
+    "procedure": "Inspeccionar manejo sin revelar valores y probar revocación en laboratorio",
+    "adverse_case": "Token expuesto o nunca revocado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.18",
+    "title": "Derechos de acceso",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.5.18.md",
+    "evidence": "Solicitudes, aprobaciones y revisión de permisos",
+    "procedure": "Seguir retiro o cambio de función hasta permisos efectivos",
+    "adverse_case": "Retiro aprobado sin ejecución",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.19",
+    "title": "Seguridad en relaciones con proveedores",
+    "module_id": "ISO2-03-04",
+    "path": "controles/A.5.19.md",
+    "evidence": "Inventario y evaluación de proveedores",
+    "procedure": "Seleccionar proveedor crítico y contrastar riesgos y controles",
+    "adverse_case": "Proveedor crítico sin evaluación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.20",
+    "title": "Seguridad en acuerdos con proveedores",
+    "module_id": "ISO2-03-04",
+    "path": "controles/A.5.20.md",
+    "evidence": "Acuerdo y obligaciones de seguridad",
+    "procedure": "Vincular una obligación crítica a evidencia y responsable",
+    "adverse_case": "Contrato no cubre información tratada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.21",
+    "title": "Seguridad en la cadena de suministro TIC",
+    "module_id": "ISO2-03-04",
+    "path": "controles/A.5.21.md",
+    "evidence": "Dependencias, procedencia y evaluación de suministro",
+    "procedure": "Seguir componente crítico hasta fuente y proceso de actualización",
+    "adverse_case": "Dependencia sin origen verificable",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.22",
+    "title": "Seguimiento y revisión de servicios de proveedores",
+    "module_id": "ISO2-03-04",
+    "path": "controles/A.5.22.md",
+    "evidence": "Revisiones, cambios y desempeño de proveedor",
+    "procedure": "Revisar un cambio material del servicio y su evaluación",
+    "adverse_case": "Cambio de servicio no evaluado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.23",
+    "title": "Seguridad en uso de servicios en la nube",
+    "module_id": "ISO2-03-04",
+    "path": "controles/A.5.23.md",
+    "evidence": "Responsabilidad compartida, configuración y salida nube",
+    "procedure": "Comparar obligación propia con configuración y evidencia de proveedor",
+    "adverse_case": "Certificado sustituye verificación de configuración propia",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.24",
+    "title": "Planificación y preparación de gestión de incidentes",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.5.24.md",
+    "evidence": "Plan, roles y ejercicios de incidentes",
+    "procedure": "Simular en mesa un escenario con responsables disponibles",
+    "adverse_case": "Nadie reconoce autoridad de contención",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.25",
+    "title": "Evaluación y decisión sobre eventos",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.5.25.md",
+    "evidence": "Registro de eventos y criterios de clasificación",
+    "procedure": "Reclasificar muestra de eventos usando criterios definidos",
+    "adverse_case": "Incidente tratado como evento rutinario sin justificación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.26",
+    "title": "Respuesta a incidentes",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.5.26.md",
+    "evidence": "Cronología de respuesta y acciones",
+    "procedure": "Reconstruir un caso o ejercicio con decisiones y tiempos",
+    "adverse_case": "Contención sin registro ni autorización pertinente",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.27",
+    "title": "Aprendizaje de los incidentes",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.5.27.md",
+    "evidence": "Revisión posterior y acciones de mejora",
+    "procedure": "Seguir aprendizaje hasta cambio verificado",
+    "adverse_case": "Incidente repetido sin tratamiento de causa",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.28",
+    "title": "Recopilación de evidencia",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.5.28.md",
+    "evidence": "Manifiesto y cadena de custodia",
+    "procedure": "Recalcular huellas y reconstruir una transferencia de evidencia",
+    "adverse_case": "Original alterado o procedencia desconocida",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.29",
+    "title": "Seguridad durante la disrupción",
+    "module_id": "ISO2-03-06",
+    "path": "controles/A.5.29.md",
+    "evidence": "Medidas de seguridad durante disrupción",
+    "procedure": "Revisar operación degradada y permisos temporales en ejercicio",
+    "adverse_case": "Contingencia elimina controles sin compensación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.30",
+    "title": "Preparación TIC para continuidad",
+    "module_id": "ISO2-03-06",
+    "path": "controles/A.5.30.md",
+    "evidence": "BIA, plan TIC y pruebas",
+    "procedure": "Contrastar recuperación ensayada con dependencias y objetivos",
+    "adverse_case": "Plan no recupera servicio completo",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.31",
+    "title": "Requisitos legales, estatutarios y contractuales",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.31.md",
+    "evidence": "Registro de obligaciones y evaluación de aplicabilidad",
+    "procedure": "Trazar requisito aplicable a responsable, control y fuente vigente",
+    "adverse_case": "Obligación atribuida solo por etiqueta sectorial sin análisis",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.32",
+    "title": "Derechos de propiedad intelectual",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.32.md",
+    "evidence": "Licencias, inventario y condiciones de uso",
+    "procedure": "Muestrear software o contenido y verificar uso autorizado",
+    "adverse_case": "Licencia incompatible con uso real",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.33",
+    "title": "Protección de registros",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.33.md",
+    "evidence": "Retención, acceso y protección de registros",
+    "procedure": "Seguir registro crítico, versión y restauración autorizada",
+    "adverse_case": "Administrador puede borrar traza sin detección",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.34",
+    "title": "Privacidad y protección de PII",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.34.md",
+    "evidence": "Inventario de tratamientos y medidas de privacidad",
+    "procedure": "Seguir dato ficticio en ciclo de vida y contrastar finalidad y acceso",
+    "adverse_case": "Dato reutilizado fuera de finalidad documentada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.35",
+    "title": "Revisión independiente de la seguridad",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.35.md",
+    "evidence": "Mandato e informe de revisión independiente",
+    "procedure": "Verificar competencia, independencia y tratamiento de conclusiones",
+    "adverse_case": "Operador evalúa su propio trabajo sin separación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.36",
+    "title": "Cumplimiento de políticas y normas",
+    "module_id": "ISO2-03-07",
+    "path": "controles/A.5.36.md",
+    "evidence": "Revisiones de cumplimiento interno y excepciones",
+    "procedure": "Muestrear regla interna y comprobar desvío y tratamiento",
+    "adverse_case": "Excepción vencida presentada como cumplimiento",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.5.37",
+    "title": "Procedimientos operativos documentados",
+    "module_id": "ISO2-03-08",
+    "path": "controles/A.5.37.md",
+    "evidence": "Procedimientos versionados y registros de ejecución",
+    "procedure": "Pedir a operador autorizado seguir procedimiento en mesa o laboratorio",
+    "adverse_case": "Procedimiento requiere conocimiento no documentado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.1",
+    "title": "Investigación de antecedentes",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.1.md",
+    "evidence": "Criterios de selección y evidencia restringida",
+    "procedure": "Muestrear incorporación según rol y requisitos aplicables",
+    "adverse_case": "Acceso privilegiado sin verificación prevista",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.2",
+    "title": "Términos y condiciones del empleo",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.2.md",
+    "evidence": "Condiciones laborales y responsabilidades de seguridad",
+    "procedure": "Contrastar obligaciones comunicadas con función desempeñada",
+    "adverse_case": "Contrato omite responsabilidad requerida internamente",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.3",
+    "title": "Concienciación, educación y formación",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.3.md",
+    "evidence": "Plan de formación y evaluación de eficacia",
+    "procedure": "Muestrear rol y probar comprensión con escenario no engañoso",
+    "adverse_case": "Solo asistencia sin evaluación pertinente",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.4",
+    "title": "Proceso disciplinario",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.4.md",
+    "evidence": "Proceso disciplinario comunicado",
+    "procedure": "Revisar proceso y aplicación anonimizada si hubo casos",
+    "adverse_case": "Decisiones arbitrarias fuera del procedimiento",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.5",
+    "title": "Responsabilidades tras la terminación o cambio",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.5.md",
+    "evidence": "Cambio/baja y obligaciones posteriores",
+    "procedure": "Seguir baja hasta revocación y comunicación de obligaciones",
+    "adverse_case": "Permisos antiguos siguen vigentes",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.6",
+    "title": "Acuerdos de confidencialidad",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.6.md",
+    "evidence": "Acuerdos de confidencialidad y revisiones",
+    "procedure": "Muestrear acceso sensible y acuerdo pertinente",
+    "adverse_case": "Tercero accede sin cobertura acordada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.7",
+    "title": "Trabajo remoto",
+    "module_id": "ISO2-03-11",
+    "path": "controles/A.6.7.md",
+    "evidence": "Reglas de trabajo remoto y controles de dispositivos",
+    "procedure": "Contrastar equipo remoto autorizado con medidas previstas",
+    "adverse_case": "Acceso desde dispositivo sin controles requeridos",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.6.8",
+    "title": "Notificación de eventos de seguridad",
+    "module_id": "ISO2-03-05",
+    "path": "controles/A.6.8.md",
+    "evidence": "Canal de reporte y registros de eventos",
+    "procedure": "Usar ejercicio sin envío real para verificar ruta y conocimiento",
+    "adverse_case": "Personal no sabe reportar o teme hacerlo",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.1",
+    "title": "Perímetros de seguridad física",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.1.md",
+    "evidence": "Perímetros y áreas definidas",
+    "procedure": "Contrastar plano o descripción con recorrido autorizado",
+    "adverse_case": "Zona crítica sin frontera identificada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.2",
+    "title": "Controles de entrada física",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.2.md",
+    "evidence": "Autorizaciones y registros de entrada",
+    "procedure": "Conciliar muestra de acceso con autorización y visitas",
+    "adverse_case": "Visitante sin control o credencial de baja activa",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.3",
+    "title": "Seguridad de oficinas, salas e instalaciones",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.3.md",
+    "evidence": "Medidas de protección de oficinas e instalaciones",
+    "procedure": "Observar ubicación de información y accesos autorizados",
+    "adverse_case": "Información sensible expuesta desde área pública",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.4",
+    "title": "Vigilancia de la seguridad física",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.4.md",
+    "evidence": "Vigilancia, alertas, retención y acceso",
+    "procedure": "Verificar cobertura y revisión conforme a política y obligaciones",
+    "adverse_case": "Zona relevante sin vigilancia prevista o registros indisponibles",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.5",
+    "title": "Protección frente a amenazas físicas y ambientales",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.5.md",
+    "evidence": "Evaluación de amenazas ambientales y medidas",
+    "procedure": "Revisar riesgo de energía, agua, incendio y controles pertinentes",
+    "adverse_case": "Medida declarada sin mantenimiento",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.6",
+    "title": "Trabajo en áreas seguras",
+    "module_id": "ISO2-03-12",
+    "path": "controles/A.7.6.md",
+    "evidence": "Procedimientos de trabajo en áreas seguras",
+    "procedure": "Muestrear autorización y supervisión de actividad",
+    "adverse_case": "Trabajo sin reglas ni supervisión pertinente",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.7",
+    "title": "Puesto de trabajo despejado y pantalla limpia",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.7.md",
+    "evidence": "Reglas de escritorio y bloqueo de pantalla",
+    "procedure": "Observar muestra autorizada sin fotografiar datos personales",
+    "adverse_case": "Documento sensible o sesión accesible sin custodia",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.8",
+    "title": "Emplazamiento y protección de equipos",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.8.md",
+    "evidence": "Ubicación y protección de equipos",
+    "procedure": "Revisar exposición ambiental y acceso a equipo crítico",
+    "adverse_case": "Equipo expuesto a daño previsible",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.9",
+    "title": "Seguridad de activos fuera de las instalaciones",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.9.md",
+    "evidence": "Inventario y autorización de activos externos",
+    "procedure": "Seguir equipo fuera de oficina y medidas de custodia",
+    "adverse_case": "Equipo sin responsable o cifrado previsto",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.10",
+    "title": "Soportes de almacenamiento",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.10.md",
+    "evidence": "Inventario de medios y movimientos",
+    "procedure": "Seguir soporte desde uso hasta baja autorizada",
+    "adverse_case": "Medio sensible sin trazabilidad",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.11",
+    "title": "Servicios de soporte (suministros)",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.11.md",
+    "evidence": "Suministros y pruebas de respaldo",
+    "procedure": "Contrastar dependencia de energía/comunicaciones con prueba segura",
+    "adverse_case": "Redundancia comparte punto único no evaluado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.12",
+    "title": "Seguridad del cableado",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.12.md",
+    "evidence": "Protección y rutas de cableado",
+    "procedure": "Inspeccionar acceso y protección según riesgo",
+    "adverse_case": "Cable crítico accesible a manipulación no autorizada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.13",
+    "title": "Mantenimiento de equipos",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.13.md",
+    "evidence": "Mantenimiento y acceso de técnicos",
+    "procedure": "Revisar intervención, autorización y protección de información",
+    "adverse_case": "Tercero conserva acceso tras mantenimiento",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.7.14",
+    "title": "Eliminación o reutilización segura de equipos",
+    "module_id": "ISO2-03-13",
+    "path": "controles/A.7.14.md",
+    "evidence": "Bajas, borrado y certificados vinculados",
+    "procedure": "Conciliar serial de equipo con método y evidencia de eliminación",
+    "adverse_case": "Certificado genérico sin equipo identificable",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.1",
+    "title": "Dispositivos endpoint del usuario",
+    "module_id": "ISO2-03-15",
+    "path": "controles/A.8.1.md",
+    "evidence": "Inventario de endpoints y configuración efectiva",
+    "procedure": "Conciliar muestra con cifrado, bloqueo y gestión acordados",
+    "adverse_case": "Equipo con acceso crítico fuera de gestión",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.2",
+    "title": "Derechos de acceso privilegiado",
+    "module_id": "ISO2-03-02",
+    "path": "controles/A.8.2.md",
+    "evidence": "Cuentas privilegiadas y trazas de uso",
+    "procedure": "Contrastar cada privilegio crítico con necesidad y aprobación",
+    "adverse_case": "Privilegio permanente sin propietario",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.3",
+    "title": "Restricción de acceso a la información",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.8.3.md",
+    "evidence": "Políticas efectivas y pruebas por identidad",
+    "procedure": "Probar acceso propio y cruzado sobre datos ficticios",
+    "adverse_case": "Acceso a datos ajenos por ruta alternativa",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.4",
+    "title": "Acceso al código fuente",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.4.md",
+    "evidence": "Permisos a código y cambios",
+    "procedure": "Verificar lectura/escritura según función y revisión de accesos",
+    "adverse_case": "Cuenta externa mantiene escritura innecesaria",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.5",
+    "title": "Autenticación segura",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.8.5.md",
+    "evidence": "Configuración de autenticación y sesiones",
+    "procedure": "Probar recuperación, revocación y MFA según política en laboratorio",
+    "adverse_case": "Sesión revocada aún permite acción crítica",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.6",
+    "title": "Gestión de la capacidad",
+    "module_id": "ISO2-03-06",
+    "path": "controles/A.8.6.md",
+    "evidence": "Métricas de capacidad y umbrales",
+    "procedure": "Comparar tendencia y eventos de saturación con decisiones",
+    "adverse_case": "Umbral superado sin respuesta",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.7",
+    "title": "Protección frente a código malicioso",
+    "module_id": "ISO2-03-15",
+    "path": "controles/A.8.7.md",
+    "evidence": "Cobertura antimalware y respuesta",
+    "procedure": "Conciliar protección con inventario y revisar detección autorizada",
+    "adverse_case": "Equipo sin protección prevista o agente inactivo",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.8",
+    "title": "Gestión de vulnerabilidades técnicas",
+    "module_id": "ISO2-03-15",
+    "path": "controles/A.8.8.md",
+    "evidence": "Inventario, vulnerabilidades y remediaciones",
+    "procedure": "Trazar una vulnerabilidad relevante hasta validación o excepción",
+    "adverse_case": "Hallazgo cerrado solo por actualizar versión declarada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.9",
+    "title": "Gestión de la configuración",
+    "module_id": "ISO2-03-15",
+    "path": "controles/A.8.9.md",
+    "evidence": "Líneas base y desviaciones",
+    "procedure": "Comparar configuración efectiva con baseline y excepciones",
+    "adverse_case": "Drift no detectado en activo crítico",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.10",
+    "title": "Borrado de información",
+    "module_id": "ISO2-03-19",
+    "path": "controles/A.8.10.md",
+    "evidence": "Política y registros de eliminación",
+    "procedure": "Seguir dato ficticio por principal, caché e índices",
+    "adverse_case": "Borrado principal deja copia accesible",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.11",
+    "title": "Enmascaramiento de datos",
+    "module_id": "ISO2-03-19",
+    "path": "controles/A.8.11.md",
+    "evidence": "Reglas y resultados de enmascaramiento",
+    "procedure": "Probar dato ficticio y roles autorizados/no autorizados",
+    "adverse_case": "Dato original persiste en exportación o log",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.12",
+    "title": "Prevención de fuga de datos",
+    "module_id": "ISO2-03-19",
+    "path": "controles/A.8.12.md",
+    "evidence": "Reglas de fuga y alertas",
+    "procedure": "Ejercitar transferencia sintética prohibida en laboratorio",
+    "adverse_case": "Canal alternativo elude control previsto",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.13",
+    "title": "Copia de seguridad de la información",
+    "module_id": "ISO2-03-06",
+    "path": "controles/A.8.13.md",
+    "evidence": "Copias, aislamiento y restauraciones",
+    "procedure": "Restaurar en laboratorio y verificar integridad y objetivo",
+    "adverse_case": "Copia exitosa no puede restaurarse",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.14",
+    "title": "Redundancia de instalaciones de procesamiento",
+    "module_id": "ISO2-03-06",
+    "path": "controles/A.8.14.md",
+    "evidence": "Diseño de redundancia y pruebas",
+    "procedure": "Examinar puntos únicos y conmutación autorizada",
+    "adverse_case": "Réplicas comparten dependencia crítica no evaluada",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.15",
+    "title": "Registro de eventos (logging)",
+    "module_id": "ISO2-03-17",
+    "path": "controles/A.8.15.md",
+    "evidence": "Eventos, accesos y protección de logs",
+    "procedure": "Reconstruir acción sintética y verificar integridad y minimización",
+    "adverse_case": "Acción crítica sin traza o con secretos",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.16",
+    "title": "Actividades de seguimiento",
+    "module_id": "ISO2-03-16",
+    "path": "controles/A.8.16.md",
+    "evidence": "Detecciones, alertas y tratamiento",
+    "procedure": "Seguir evento sintético hasta decisión y respuesta",
+    "adverse_case": "Alerta no tiene destinatario operativo",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.17",
+    "title": "Sincronización de relojes",
+    "module_id": "ISO2-03-17",
+    "path": "controles/A.8.17.md",
+    "evidence": "Fuentes de tiempo y desvíos",
+    "procedure": "Comparar timestamps y deriva con criterio aprobado",
+    "adverse_case": "Desfase impide ordenar hechos",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.18",
+    "title": "Uso de programas utilitarios privilegiados",
+    "module_id": "ISO2-03-03",
+    "path": "controles/A.8.18.md",
+    "evidence": "Inventario de utilidades privilegiadas y uso",
+    "procedure": "Contrastar herramienta capaz de bypass con permisos y trazas",
+    "adverse_case": "Utilidad evade controles sin registro",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.19",
+    "title": "Instalación de software en sistemas operativos",
+    "module_id": "ISO2-03-15",
+    "path": "controles/A.8.19.md",
+    "evidence": "Catálogo de software y permisos de instalación",
+    "procedure": "Revisar instalación reciente y autorización",
+    "adverse_case": "Usuario instala software no permitido",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.20",
+    "title": "Seguridad de redes",
+    "module_id": "ISO2-03-18",
+    "path": "controles/A.8.20.md",
+    "evidence": "Diagrama y controles de red",
+    "procedure": "Contrastar flujo autorizado con reglas efectivas y observación",
+    "adverse_case": "Servicio expuesto fuera de matriz",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.21",
+    "title": "Seguridad de servicios de red",
+    "module_id": "ISO2-03-18",
+    "path": "controles/A.8.21.md",
+    "evidence": "Requisitos y garantías de servicios de red",
+    "procedure": "Revisar servicio crítico y evidencia de nivel de protección",
+    "adverse_case": "Servicio externo asumido seguro sin acuerdo",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.22",
+    "title": "Segregación de redes",
+    "module_id": "ISO2-03-18",
+    "path": "controles/A.8.22.md",
+    "evidence": "Segmentos y matriz de comunicaciones",
+    "procedure": "Probar conectividad negativa autorizada entre zonas de laboratorio",
+    "adverse_case": "Zona no confiable alcanza recurso restringido",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.23",
+    "title": "Filtrado web",
+    "module_id": "ISO2-03-18",
+    "path": "controles/A.8.23.md",
+    "evidence": "Política de filtrado y cobertura",
+    "procedure": "Ejercitar categorías de prueba sin sitios maliciosos reales",
+    "adverse_case": "Filtrado no cubre acceso remoto previsto",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.24",
+    "title": "Uso de criptografía",
+    "module_id": "ISO2-03-19",
+    "path": "controles/A.8.24.md",
+    "evidence": "Política criptográfica e inventario de claves",
+    "procedure": "Revisar ciclo de claves, acceso, rotación y recuperación sin revelar claves",
+    "adverse_case": "Clave junto a dato accesible al mismo atacante",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.25",
+    "title": "Ciclo de vida de desarrollo seguro",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.25.md",
+    "evidence": "Ciclo de desarrollo y gates",
+    "procedure": "Seguir proyecto desde requisitos hasta operación",
+    "adverse_case": "Cambio crítico omite validación de seguridad",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.26",
+    "title": "Requisitos de seguridad de aplicaciones",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.26.md",
+    "evidence": "Requisitos de seguridad de aplicación",
+    "procedure": "Trazar requisito a aceptación y prueba de abuso",
+    "adverse_case": "Requisito ambiguo sin criterio verificable",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.27",
+    "title": "Principios de ingeniería y arquitectura segura",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.27.md",
+    "evidence": "Arquitectura y modelos de amenaza",
+    "procedure": "Revisar fronteras de confianza y decisiones de diseño",
+    "adverse_case": "Componente confía en dato externo sin validación",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.28",
+    "title": "Codificación segura",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.28.md",
+    "evidence": "Guía de codificación y revisiones",
+    "procedure": "Muestrear ruta crítica y probar entrada adversa en laboratorio",
+    "adverse_case": "Firma, autorización o validación incompleta",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.29",
+    "title": "Pruebas de seguridad en desarrollo y aceptación",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.29.md",
+    "evidence": "Plan y resultados de pruebas de seguridad",
+    "procedure": "Verificar qué casos realmente corrieron y defectos tratados",
+    "adverse_case": "Job omitido contado como aprobado",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.30",
+    "title": "Desarrollo externalizado",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.30.md",
+    "evidence": "Acuerdos y aceptación de desarrollo externo",
+    "procedure": "Revisar entregable externo y verificación de seguridad",
+    "adverse_case": "Código de tercero aceptado sin criterios",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.31",
+    "title": "Separación de entornos de desarrollo, prueba y producción",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.31.md",
+    "evidence": "Inventario de entornos y separación",
+    "procedure": "Verificar destinos y bloqueo previo de entorno no autorizado",
+    "adverse_case": "Prueba usa base de producción por fallback",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.32",
+    "title": "Gestión de cambios",
+    "module_id": "ISO2-03-08",
+    "path": "controles/A.8.32.md",
+    "evidence": "Solicitud, aprobación, prueba y rollback",
+    "procedure": "Seguir cambio normal y emergencia hasta estado efectivo",
+    "adverse_case": "Cambio no revisado o reversión no viable",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.33",
+    "title": "Información de prueba",
+    "module_id": "ISO2-03-14",
+    "path": "controles/A.8.33.md",
+    "evidence": "Origen, autorización y limpieza de datos de prueba",
+    "procedure": "Verificar que fixtures no exponen datos reales indebidos",
+    "adverse_case": "Dump de clientes en entorno débil",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "INDICIOS_O_PARCIAL",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "LOCAL_STATIC",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  },
+  {
+    "control_id": "A.8.34",
+    "title": "Protección de sistemas durante auditoría",
+    "module_id": "ISO2-03-08",
+    "path": "controles/A.8.34.md",
+    "evidence": "Mandato de auditoría, cuentas y registros",
+    "procedure": "Contrastar acciones de sonda con permisos y ventana",
+    "adverse_case": "Auditor escribe fuera de alcance o conserva acceso",
+    "assessment": "NOT_VERIFIABLE",
+    "knowledge_type": "INTERPRETATION",
+    "analysis_scope": "ORGANIZATION_CONTROL",
+    "local_static_observability": "NO_SUFFICIENT_REPO_EVIDENCE",
+    "additional_observation_modes": [
+      "RUNTIME_TEST",
+      "ORG_EVIDENCE"
+    ],
+    "repository_pass_implies_control_conformity": false
+  }
+]
