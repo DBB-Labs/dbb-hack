@@ -2,13 +2,13 @@
   "marca": "DBB Labs",
   "objetivo": "kapa21-v2",
   "stack": "Next.js + Supabase",
-  "modo": "DBB-HACK · nivel full · EN VIVO",
+  "modo": "listo para lanzar",
   "estado": "completado",
   "kpis": {
-    "vectores": 2,
+    "vectores": 0,
     "defendidos": 0,
-    "hallazgos": 2,
-    "cobertura": 60
+    "hallazgos": 0,
+    "cobertura": 0
   },
   "severidades": {
     "critica": 0,
@@ -16,76 +16,8 @@
     "media": 0,
     "baja": 0
   },
-  "integridad": 85,
-  "veredicto": "Ataque completado: 0 defendidos, 2 hallazgos, 0 vulnerables de 2 vectores.",
-  "ataques": [
-    {
-      "id": "A6",
-      "nombre": "Fuerza bruta de login",
-      "categoria": "Anti-automacion",
-      "owasp": "API4",
-      "iso": "A.8.5",
-      "estado": "hallazgo",
-      "detalle": "sin freno local; verificar borde en prod",
-      "severidad": "media",
-      "recomendacion": "Verificar en produccion: regla de rate-limit en Vercel Firewall para /acceso y el endpoint de auth; rate-limits de Supabase Auth activos; idealmente captcha en el login.",
-      "prompt_fix": "Contexto: DBB-HACK detecto que la proteccion contra fuerza bruta depende solo del borde y el limitador propio (features/auth/lib/limite.ts) es por cookie y evitable, y no cubre /auth/v1/token de Supabase. Tarea: (1) habilitar rate-limit en Vercel Firewall para /acceso y auth; (2) verificar/ajustar rate-limits de Supabase Auth en produccion; (3) evaluar captcha (hCaptcha/Turnstile); (4) definir [auth.rate_limit] en supabase/config.toml. Listo cuando 20 intentos fallidos contra /auth/v1/token reciban 429 y el login legitimo siga funcionando."
-    },
-    {
-      "id": "A10",
-      "nombre": "Cabeceras de seguridad",
-      "categoria": "Config",
-      "owasp": "API8",
-      "iso": "A.8.26",
-      "estado": "hallazgo",
-      "detalle": "falta Content-Security-Policy",
-      "severidad": "media",
-      "recomendacion": "Agregar Content-Security-Policy (y HSTS) en next.config.ts, seccion async headers().",
-      "prompt_fix": "Contexto: la app no envia la cabecera Content-Security-Policy (si tiene X-Frame-Options, X-Content-Type-Options, Referrer-Policy y Permissions-Policy). Tarea: agregar en next.config.ts async headers() una CSP restrictiva que permita solo origenes propios + Supabase (127.0.0.1:54321 en dev / el dominio en prod) + Mercado Pago, y agregar Strict-Transport-Security. Listo cuando la respuesta de /acceso incluya Content-Security-Policy y securityheaders.com de nota A."
-    }
-  ],
-  "eventos": [
-    {
-      "hora": "18:03:23",
-      "tipo": "info",
-      "texto": "Ataque iniciado contra kapa21-v2 (lab local aislado)"
-    },
-    {
-      "hora": "18:03:23",
-      "tipo": "ataque",
-      "texto": "A6 Fuerza bruta de login: preparando..."
-    },
-    {
-      "hora": "18:03:25",
-      "tipo": "ataque",
-      "texto": "A6 15 intentos de login fallidos rapidos..."
-    },
-    {
-      "hora": "18:03:28",
-      "tipo": "hallazgo",
-      "texto": "A6 Fuerza bruta de login: sin freno local; verificar borde en prod"
-    },
-    {
-      "hora": "18:03:30",
-      "tipo": "ataque",
-      "texto": "A10 Cabeceras de seguridad: preparando..."
-    },
-    {
-      "hora": "18:03:32",
-      "tipo": "ataque",
-      "texto": "A10 revisando cabeceras de seguridad..."
-    },
-    {
-      "hora": "18:03:32",
-      "tipo": "hallazgo",
-      "texto": "A10 Cabeceras de seguridad: falta Content-Security-Policy"
-    },
-    {
-      "hora": "18:03:34",
-      "tipo": "info",
-      "texto": "Ataque finalizado."
-    }
-  ],
-  "inicio": "2026-09-28T18:03:23.580903",
-  "total": 2
+  "integridad": 100,
+  "veredicto": "Sin corrida — listo para lanzar.",
+  "ataques": [],
+  "eventos": []
 }
