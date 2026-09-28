@@ -6,10 +6,10 @@
   "inicio": "2026-09-28T15:22:00",
   "estado": "completado",
   "kpis": {
-    "vectores": 8,
-    "defendidos": 7,
+    "vectores": 11,
+    "defendidos": 10,
     "hallazgos": 1,
-    "cobertura": 50
+    "cobertura": 65
   },
   "severidades": {
     "critica": 0,
@@ -17,7 +17,7 @@
     "media": 1,
     "baja": 0
   },
-  "integridad": 92,
+  "integridad": 93,
   "ataques": [
     {
       "id": "A0",
@@ -80,7 +80,10 @@
       "owasp": "API4",
       "iso": "A.8.5",
       "estado": "hallazgo",
-      "detalle": "Limitador por cookie evitable + API de auth directa sin freno. Defensa depende del borde (Vercel/Supabase): verificar en produccion."
+      "detalle": "Limitador por cookie evitable + API de auth directa sin freno. Defensa depende del borde (Vercel/Supabase): verificar en produccion.",
+      "recomendacion": "Verificar en producción: regla de rate-limit en Vercel Firewall para /acceso y el endpoint de auth; rate-limits de Supabase Auth activos; idealmente captcha en el login.",
+      "severidad": "media",
+      "prompt_fix": "Contexto: pentest DBB-HACK sobre kapa21-v2 detectó que la protección contra fuerza bruta de login depende solo del borde y el limitador propio (features/auth/lib/limite.ts) es por cookie y evitable, y no cubre el acceso directo a /auth/v1/token de Supabase.\nTarea: (1) Habilitar y documentar rate-limiting en Vercel Firewall para /acceso y el endpoint de auth. (2) Verificar y ajustar los rate-limits de Supabase Auth en el proyecto de producción. (3) Evaluar activar captcha (hCaptcha/Turnstile) en el login de Supabase Auth. (4) Definir en supabase/config.toml la sección [auth.rate_limit] para dejar el límite como código. Listo cuando: un script de 20 intentos fallidos contra /auth/v1/token reciba 429 y el login legítimo siga funcionando."
     },
     {
       "id": "A7",
@@ -90,6 +93,33 @@
       "iso": "A.8.26",
       "estado": "defendido",
       "detalle": "Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
+    },
+    {
+      "id": "A8",
+      "nombre": "Secretos en el historial de git",
+      "categoria": "Secretos",
+      "owasp": "API8",
+      "iso": "A.8.24",
+      "estado": "defendido",
+      "detalle": "gitleaks: 1123 commits / 38MB escaneados, 0 secretos filtrados."
+    },
+    {
+      "id": "A9",
+      "nombre": "Vulnerabilidades en dependencias",
+      "categoria": "Supply-chain",
+      "owasp": "API8",
+      "iso": "A.8.8",
+      "estado": "defendido",
+      "detalle": "npm audit: 0 vulnerabilidades conocidas."
+    },
+    {
+      "id": "A10",
+      "nombre": "Patrones inseguros en el código (SAST)",
+      "categoria": "Código",
+      "owasp": "API8",
+      "iso": "A.8.28",
+      "estado": "defendido",
+      "detalle": "semgrep security-audit + owasp: 0 hallazgos (7 archivos con parseo parcial, afinar version)."
     }
   ],
   "eventos": [
@@ -182,6 +212,33 @@
       "hora": "15:56:46",
       "tipo": "defendido",
       "texto": "A7 Carrera de doble-pago de retiro: Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
+    },
+    {
+      "hora": "16:12:07",
+      "tipo": "defendido",
+      "texto": "A8 Secretos en el historial de git: gitleaks: 1123 commits / 38MB escaneados, 0 secretos filtrados."
+    },
+    {
+      "hora": "16:12:07",
+      "tipo": "defendido",
+      "texto": "A9 Vulnerabilidades en dependencias: npm audit: 0 vulnerabilidades conocidas."
+    },
+    {
+      "hora": "16:12:08",
+      "tipo": "info",
+      "texto": "Escaneo profesional: gitleaks + npm audit ejecutados"
+    },
+    {
+      "hora": "16:14:19",
+      "tipo": "defendido",
+      "texto": "A10 Patrones inseguros en el código (SAST): semgrep security-audit + owasp: 0 hallazgos (7 archivos con parseo parcial, afinar version)."
+    },
+    {
+      "hora": "16:14:20",
+      "tipo": "defendido",
+      "texto": "A10 semgrep SAST: 0 hallazgos"
     }
-  ]
+  ],
+  "veredicto": "SÓLIDO — 10 de 11 controles superados. Capa estática limpia (secretos, deps, SAST). 1 hallazgo de borde.",
+  "fin": "2026-09-28T15:55:00"
 }
