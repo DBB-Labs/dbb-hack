@@ -1,0 +1,4 @@
+[
+  { "fecha": "2026-09-28 14:44", "tipo": "Revisión de código", "objetivo": "kapa21-v2", "integridad": 88, "vectores": 5, "defendidos": 5, "hallazgos": 1, "cobertura": 25 },
+  { "fecha": "2026-09-28 15:55", "tipo": "Pentest en vivo", "objetivo": "kapa21-v2", "integridad": 92, "vectores": 8, "defendidos": 7, "hallazgos": 1, "cobertura": 50 }
+]
