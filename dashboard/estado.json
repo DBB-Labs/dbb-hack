@@ -2,40 +2,40 @@
   "marca": "DBB Labs",
   "objetivo": "kapa21-v2",
   "stack": "Next.js + Supabase",
-  "modo": "Pentest en vivo (laboratorio local aislado)",
-  "inicio": "2026-09-28T15:22:00",
+  "modo": "DBB-HACK · nivel full · EN VIVO",
+  "inicio": "2026-09-28T16:38:51.096042",
   "estado": "completado",
   "kpis": {
-    "vectores": 11,
-    "defendidos": 10,
+    "vectores": 7,
+    "defendidos": 6,
     "hallazgos": 1,
-    "cobertura": 65
+    "cobertura": 60
   },
   "severidades": {
     "critica": 0,
     "alta": 0,
-    "media": 1,
+    "media": 0,
     "baja": 0
   },
-  "integridad": 93,
+  "integridad": 85,
   "ataques": [
     {
       "id": "A0",
-      "nombre": "Robo externo de datos y archivos",
+      "nombre": "Robo externo sin cuenta",
       "categoria": "Sin cuenta",
       "owasp": "API1/API3",
       "iso": "A.8.3",
       "estado": "defendido",
-      "detalle": "La API solo expone el esquema public; buckets privados niegan el archivo aun con ruta exacta (404)."
+      "detalle": "API no expone esquemas sensibles"
     },
     {
       "id": "A1",
-      "nombre": "Aislamiento entre clientes (RLS)",
+      "nombre": "Aislamiento entre clientes",
       "categoria": "IDOR",
       "owasp": "API1 BOLA",
       "iso": "A.8.3",
       "estado": "defendido",
-      "detalle": "El cliente A solo se ve a si mismo; la fila del cliente B queda vacia."
+      "detalle": "RLS: A no ve la fila de B"
     },
     {
       "id": "A2",
@@ -44,7 +44,7 @@
       "owasp": "API5 BFLA",
       "iso": "A.8.2",
       "estado": "defendido",
-      "detalle": "aprobar_solicitud y pagar_retiro devuelven NOT_AN_OPERATOR."
+      "detalle": "NOT_AN_OPERATOR"
     },
     {
       "id": "A3",
@@ -53,16 +53,16 @@
       "owasp": "ASVS V2",
       "iso": "A.8.5",
       "estado": "defendido",
-      "detalle": "is_active_operator()=false con mfa NULL; aprobar bloqueado (doble capa)."
+      "detalle": "Bloqueado: is_active_operator()=false"
     },
     {
       "id": "A4",
-      "nombre": "Webhook de pagos con firma falsa",
+      "nombre": "Webhook con firma falsa",
       "categoria": "Integridad",
-      "owasp": "API2/API8",
+      "owasp": "API8",
       "iso": "A.8.26",
       "estado": "defendido",
-      "detalle": "Cuerpo bien formado + firma falsa => 401 firma invalida."
+      "detalle": "401 firma invalida"
     },
     {
       "id": "A5",
@@ -71,7 +71,7 @@
       "owasp": "API2",
       "iso": "A.8.5",
       "estado": "defendido",
-      "detalle": "Todos responden 404, sin revelar que la ruta existe."
+      "detalle": "HTTP 404 (bloqueado)"
     },
     {
       "id": "A6",
@@ -80,165 +80,126 @@
       "owasp": "API4",
       "iso": "A.8.5",
       "estado": "hallazgo",
-      "detalle": "Limitador por cookie evitable + API de auth directa sin freno. Defensa depende del borde (Vercel/Supabase): verificar en produccion.",
-      "recomendacion": "Verificar en producción: regla de rate-limit en Vercel Firewall para /acceso y el endpoint de auth; rate-limits de Supabase Auth activos; idealmente captcha en el login.",
-      "severidad": "media",
-      "prompt_fix": "Contexto: pentest DBB-HACK sobre kapa21-v2 detectó que la protección contra fuerza bruta de login depende solo del borde y el limitador propio (features/auth/lib/limite.ts) es por cookie y evitable, y no cubre el acceso directo a /auth/v1/token de Supabase.\nTarea: (1) Habilitar y documentar rate-limiting en Vercel Firewall para /acceso y el endpoint de auth. (2) Verificar y ajustar los rate-limits de Supabase Auth en el proyecto de producción. (3) Evaluar activar captcha (hCaptcha/Turnstile) en el login de Supabase Auth. (4) Definir en supabase/config.toml la sección [auth.rate_limit] para dejar el límite como código. Listo cuando: un script de 20 intentos fallidos contra /auth/v1/token reciba 429 y el login legítimo siga funcionando."
-    },
-    {
-      "id": "A7",
-      "nombre": "Carrera de doble-pago de retiro",
-      "categoria": "Race",
-      "owasp": "API6",
-      "iso": "A.8.26",
-      "estado": "defendido",
-      "detalle": "Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
-    },
-    {
-      "id": "A8",
-      "nombre": "Secretos en el historial de git",
-      "categoria": "Secretos",
-      "owasp": "API8",
-      "iso": "A.8.24",
-      "estado": "defendido",
-      "detalle": "gitleaks: 1123 commits / 38MB escaneados, 0 secretos filtrados."
-    },
-    {
-      "id": "A9",
-      "nombre": "Vulnerabilidades en dependencias",
-      "categoria": "Supply-chain",
-      "owasp": "API8",
-      "iso": "A.8.8",
-      "estado": "defendido",
-      "detalle": "npm audit: 0 vulnerabilidades conocidas."
-    },
-    {
-      "id": "A10",
-      "nombre": "Patrones inseguros en el código (SAST)",
-      "categoria": "Código",
-      "owasp": "API8",
-      "iso": "A.8.28",
-      "estado": "defendido",
-      "detalle": "semgrep security-audit + owasp: 0 hallazgos (7 archivos con parseo parcial, afinar version)."
+      "detalle": "sin freno local; verificar borde en prod"
     }
   ],
   "eventos": [
     {
-      "hora": "15:22:04",
+      "hora": "16:38:51",
       "tipo": "info",
-      "texto": "Laboratorio local montado (127.0.0.1) — produccion intacta"
+      "texto": "Ataque iniciado contra kapa21-v2 (lab local aislado)"
     },
     {
-      "hora": "15:22:10",
-      "tipo": "info",
-      "texto": "Sembradas 2 cuentas cliente + 1 operador sin factor"
-    },
-    {
-      "hora": "15:22:20",
+      "hora": "16:38:51",
       "tipo": "ataque",
-      "texto": "A0 Externo: leyendo tablas con llave publica..."
+      "texto": "A0 Robo externo sin cuenta: preparando..."
     },
     {
-      "hora": "15:22:22",
-      "tipo": "defendido",
-      "texto": "A0 Bloqueado: only public schema is exposed"
-    },
-    {
-      "hora": "15:22:35",
-      "tipo": "defendido",
-      "texto": "A0 Storage: documento privado -> 404 aun con ruta exacta"
-    },
-    {
-      "hora": "15:23:01",
+      "hora": "16:38:53",
       "tipo": "ataque",
-      "texto": "A1 IDOR: cliente A intenta leer perfil de B..."
+      "texto": "A0 leyendo tablas con llave publica..."
     },
     {
-      "hora": "15:23:03",
+      "hora": "16:38:53",
       "tipo": "defendido",
-      "texto": "A1 Bloqueado: RLS devuelve solo la fila propia"
+      "texto": "A0 Robo externo sin cuenta: API no expone esquemas sensibles"
     },
     {
-      "hora": "15:23:40",
+      "hora": "16:38:55",
       "tipo": "ataque",
-      "texto": "A2 Escalada: cliente llama aprobar_solicitud..."
+      "texto": "A1 Aislamiento entre clientes: preparando..."
     },
     {
-      "hora": "15:23:41",
-      "tipo": "defendido",
-      "texto": "A2 Bloqueado: NOT_AN_OPERATOR"
-    },
-    {
-      "hora": "15:24:10",
+      "hora": "16:38:57",
       "tipo": "ataque",
-      "texto": "A3 Operador sin 2FA intenta mover dinero..."
+      "texto": "A1 cliente A intenta leer perfil de B..."
     },
     {
-      "hora": "15:24:12",
+      "hora": "16:38:57",
       "tipo": "defendido",
-      "texto": "A3 Bloqueado: is_active_operator()=false"
+      "texto": "A1 Aislamiento entre clientes: RLS: A no ve la fila de B"
     },
     {
-      "hora": "15:24:50",
+      "hora": "16:38:59",
       "tipo": "ataque",
-      "texto": "A4 Webhook: aviso de pago con firma falsa..."
+      "texto": "A2 Escalada cliente a operador: preparando..."
     },
     {
-      "hora": "15:24:51",
-      "tipo": "defendido",
-      "texto": "A4 Bloqueado: 401 firma invalida"
-    },
-    {
-      "hora": "15:25:05",
-      "tipo": "defendido",
-      "texto": "A5 Crons sin secreto -> 404 x6"
-    },
-    {
-      "hora": "15:25:30",
+      "hora": "16:39:01",
       "tipo": "ataque",
-      "texto": "A6 Fuerza bruta: 15 intentos directos a /auth/v1/token..."
+      "texto": "A2 cliente intenta aprobar dinero..."
     },
     {
-      "hora": "15:25:33",
+      "hora": "16:39:01",
+      "tipo": "defendido",
+      "texto": "A2 Escalada cliente a operador: NOT_AN_OPERATOR"
+    },
+    {
+      "hora": "16:39:04",
+      "tipo": "ataque",
+      "texto": "A3 Operador sin 2FA mueve dinero: preparando..."
+    },
+    {
+      "hora": "16:39:06",
+      "tipo": "ataque",
+      "texto": "A3 operador sin 2FA intenta aprobar..."
+    },
+    {
+      "hora": "16:39:06",
+      "tipo": "defendido",
+      "texto": "A3 Operador sin 2FA mueve dinero: Bloqueado: is_active_operator()=false"
+    },
+    {
+      "hora": "16:39:08",
+      "tipo": "ataque",
+      "texto": "A4 Webhook con firma falsa: preparando..."
+    },
+    {
+      "hora": "16:39:10",
+      "tipo": "ataque",
+      "texto": "A4 aviso de pago con firma falsa..."
+    },
+    {
+      "hora": "16:39:10",
+      "tipo": "defendido",
+      "texto": "A4 Webhook con firma falsa: 401 firma invalida"
+    },
+    {
+      "hora": "16:39:12",
+      "tipo": "ataque",
+      "texto": "A5 Crons sin secreto: preparando..."
+    },
+    {
+      "hora": "16:39:14",
+      "tipo": "ataque",
+      "texto": "A5 disparando cron de pagos sin secreto..."
+    },
+    {
+      "hora": "16:39:14",
+      "tipo": "defendido",
+      "texto": "A5 Crons sin secreto: HTTP 404 (bloqueado)"
+    },
+    {
+      "hora": "16:39:16",
+      "tipo": "ataque",
+      "texto": "A6 Fuerza bruta de login: preparando..."
+    },
+    {
+      "hora": "16:39:18",
+      "tipo": "ataque",
+      "texto": "A6 15 intentos de login fallidos rapidos..."
+    },
+    {
+      "hora": "16:39:21",
       "tipo": "hallazgo",
-      "texto": "A6 HALLAZGO: sin freno local; defensa depende del borde (verificar prod)"
+      "texto": "A6 Fuerza bruta de login: sin freno local; verificar borde en prod"
     },
     {
-      "hora": "15:55:03",
-      "tipo": "ataque",
-      "texto": "A7 Carrera de doble-pago de retiro: Disparando dos pagos concurrentes del mismo retiro..."
-    },
-    {
-      "hora": "15:56:46",
-      "tipo": "defendido",
-      "texto": "A7 Carrera de doble-pago de retiro: Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
-    },
-    {
-      "hora": "16:12:07",
-      "tipo": "defendido",
-      "texto": "A8 Secretos en el historial de git: gitleaks: 1123 commits / 38MB escaneados, 0 secretos filtrados."
-    },
-    {
-      "hora": "16:12:07",
-      "tipo": "defendido",
-      "texto": "A9 Vulnerabilidades en dependencias: npm audit: 0 vulnerabilidades conocidas."
-    },
-    {
-      "hora": "16:12:08",
+      "hora": "16:39:23",
       "tipo": "info",
-      "texto": "Escaneo profesional: gitleaks + npm audit ejecutados"
-    },
-    {
-      "hora": "16:14:19",
-      "tipo": "defendido",
-      "texto": "A10 Patrones inseguros en el código (SAST): semgrep security-audit + owasp: 0 hallazgos (7 archivos con parseo parcial, afinar version)."
-    },
-    {
-      "hora": "16:14:20",
-      "tipo": "defendido",
-      "texto": "A10 semgrep SAST: 0 hallazgos"
+      "texto": "Ataque finalizado."
     }
   ],
-  "veredicto": "SÓLIDO — 10 de 11 controles superados. Capa estática limpia (secretos, deps, SAST). 1 hallazgo de borde.",
+  "veredicto": "Ataque completado: 6 defendidos, 1 hallazgos, 0 vulnerables de 7 vectores.",
   "fin": "2026-09-28T15:55:00"
 }
