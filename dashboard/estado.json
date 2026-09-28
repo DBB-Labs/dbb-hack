@@ -1,0 +1,187 @@
+{
+  "marca": "DBB Labs",
+  "objetivo": "kapa21-v2",
+  "stack": "Next.js + Supabase",
+  "modo": "Pentest en vivo (laboratorio local aislado)",
+  "inicio": "2026-09-28T15:22:00",
+  "estado": "completado",
+  "kpis": {
+    "vectores": 8,
+    "defendidos": 7,
+    "hallazgos": 1,
+    "cobertura": 50
+  },
+  "severidades": {
+    "critica": 0,
+    "alta": 0,
+    "media": 1,
+    "baja": 0
+  },
+  "integridad": 92,
+  "ataques": [
+    {
+      "id": "A0",
+      "nombre": "Robo externo de datos y archivos",
+      "categoria": "Sin cuenta",
+      "owasp": "API1/API3",
+      "iso": "A.8.3",
+      "estado": "defendido",
+      "detalle": "La API solo expone el esquema public; buckets privados niegan el archivo aun con ruta exacta (404)."
+    },
+    {
+      "id": "A1",
+      "nombre": "Aislamiento entre clientes (RLS)",
+      "categoria": "IDOR",
+      "owasp": "API1 BOLA",
+      "iso": "A.8.3",
+      "estado": "defendido",
+      "detalle": "El cliente A solo se ve a si mismo; la fila del cliente B queda vacia."
+    },
+    {
+      "id": "A2",
+      "nombre": "Escalada cliente a operador",
+      "categoria": "Authz",
+      "owasp": "API5 BFLA",
+      "iso": "A.8.2",
+      "estado": "defendido",
+      "detalle": "aprobar_solicitud y pagar_retiro devuelven NOT_AN_OPERATOR."
+    },
+    {
+      "id": "A3",
+      "nombre": "Operador sin 2FA mueve dinero",
+      "categoria": "Auth",
+      "owasp": "ASVS V2",
+      "iso": "A.8.5",
+      "estado": "defendido",
+      "detalle": "is_active_operator()=false con mfa NULL; aprobar bloqueado (doble capa)."
+    },
+    {
+      "id": "A4",
+      "nombre": "Webhook de pagos con firma falsa",
+      "categoria": "Integridad",
+      "owasp": "API2/API8",
+      "iso": "A.8.26",
+      "estado": "defendido",
+      "detalle": "Cuerpo bien formado + firma falsa => 401 firma invalida."
+    },
+    {
+      "id": "A5",
+      "nombre": "Crons sin secreto",
+      "categoria": "Auth",
+      "owasp": "API2",
+      "iso": "A.8.5",
+      "estado": "defendido",
+      "detalle": "Todos responden 404, sin revelar que la ruta existe."
+    },
+    {
+      "id": "A6",
+      "nombre": "Fuerza bruta de login",
+      "categoria": "Anti-automacion",
+      "owasp": "API4",
+      "iso": "A.8.5",
+      "estado": "hallazgo",
+      "detalle": "Limitador por cookie evitable + API de auth directa sin freno. Defensa depende del borde (Vercel/Supabase): verificar en produccion."
+    },
+    {
+      "id": "A7",
+      "nombre": "Carrera de doble-pago de retiro",
+      "categoria": "Race",
+      "owasp": "API6",
+      "iso": "A.8.26",
+      "estado": "defendido",
+      "detalle": "Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
+    }
+  ],
+  "eventos": [
+    {
+      "hora": "15:22:04",
+      "tipo": "info",
+      "texto": "Laboratorio local montado (127.0.0.1) — produccion intacta"
+    },
+    {
+      "hora": "15:22:10",
+      "tipo": "info",
+      "texto": "Sembradas 2 cuentas cliente + 1 operador sin factor"
+    },
+    {
+      "hora": "15:22:20",
+      "tipo": "ataque",
+      "texto": "A0 Externo: leyendo tablas con llave publica..."
+    },
+    {
+      "hora": "15:22:22",
+      "tipo": "defendido",
+      "texto": "A0 Bloqueado: only public schema is exposed"
+    },
+    {
+      "hora": "15:22:35",
+      "tipo": "defendido",
+      "texto": "A0 Storage: documento privado -> 404 aun con ruta exacta"
+    },
+    {
+      "hora": "15:23:01",
+      "tipo": "ataque",
+      "texto": "A1 IDOR: cliente A intenta leer perfil de B..."
+    },
+    {
+      "hora": "15:23:03",
+      "tipo": "defendido",
+      "texto": "A1 Bloqueado: RLS devuelve solo la fila propia"
+    },
+    {
+      "hora": "15:23:40",
+      "tipo": "ataque",
+      "texto": "A2 Escalada: cliente llama aprobar_solicitud..."
+    },
+    {
+      "hora": "15:23:41",
+      "tipo": "defendido",
+      "texto": "A2 Bloqueado: NOT_AN_OPERATOR"
+    },
+    {
+      "hora": "15:24:10",
+      "tipo": "ataque",
+      "texto": "A3 Operador sin 2FA intenta mover dinero..."
+    },
+    {
+      "hora": "15:24:12",
+      "tipo": "defendido",
+      "texto": "A3 Bloqueado: is_active_operator()=false"
+    },
+    {
+      "hora": "15:24:50",
+      "tipo": "ataque",
+      "texto": "A4 Webhook: aviso de pago con firma falsa..."
+    },
+    {
+      "hora": "15:24:51",
+      "tipo": "defendido",
+      "texto": "A4 Bloqueado: 401 firma invalida"
+    },
+    {
+      "hora": "15:25:05",
+      "tipo": "defendido",
+      "texto": "A5 Crons sin secreto -> 404 x6"
+    },
+    {
+      "hora": "15:25:30",
+      "tipo": "ataque",
+      "texto": "A6 Fuerza bruta: 15 intentos directos a /auth/v1/token..."
+    },
+    {
+      "hora": "15:25:33",
+      "tipo": "hallazgo",
+      "texto": "A6 HALLAZGO: sin freno local; defensa depende del borde (verificar prod)"
+    },
+    {
+      "hora": "15:55:03",
+      "tipo": "ataque",
+      "texto": "A7 Carrera de doble-pago de retiro: Disparando dos pagos concurrentes del mismo retiro..."
+    },
+    {
+      "hora": "15:56:46",
+      "tipo": "defendido",
+      "texto": "A7 Carrera de doble-pago de retiro: Blindado: FOR UPDATE + ALREADY_PAID + idempotencia; invariantes de BD impiden estado inconsistente."
+    }
+  ]
+}
