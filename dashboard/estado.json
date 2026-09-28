@@ -2,13 +2,13 @@
   "marca": "DBB Labs",
   "objetivo": "kapa21-v2",
   "stack": "Next.js + Supabase",
-  "modo": "listo para lanzar",
+  "modo": "DBB-HACK · nivel full · EN VIVO",
   "estado": "completado",
   "kpis": {
-    "vectores": 0,
-    "defendidos": 0,
-    "hallazgos": 0,
-    "cobertura": 0
+    "vectores": 14,
+    "defendidos": 10,
+    "hallazgos": 3,
+    "cobertura": 60
   },
   "severidades": {
     "critica": 0,
@@ -16,8 +16,364 @@
     "media": 0,
     "baja": 0
   },
-  "integridad": 100,
-  "veredicto": "Sin corrida — listo para lanzar.",
-  "ataques": [],
-  "eventos": []
+  "integridad": 55,
+  "veredicto": "Ataque completado: 10 defendidos, 3 hallazgos, 1 vulnerables de 14 vectores.",
+  "ataques": [
+    {
+      "id": "A0",
+      "nombre": "Robo externo sin cuenta",
+      "categoria": "Sin cuenta",
+      "owasp": "API1/API3",
+      "iso": "A.8.3",
+      "estado": "defendido",
+      "detalle": "API no expone esquemas sensibles"
+    },
+    {
+      "id": "A1",
+      "nombre": "Aislamiento entre clientes",
+      "categoria": "IDOR",
+      "owasp": "API1 BOLA",
+      "iso": "A.8.3",
+      "estado": "defendido",
+      "detalle": "RLS: A no ve la fila de B"
+    },
+    {
+      "id": "A2",
+      "nombre": "Escalada cliente a operador",
+      "categoria": "Authz",
+      "owasp": "API5 BFLA",
+      "iso": "A.8.2",
+      "estado": "defendido",
+      "detalle": "NOT_AN_OPERATOR"
+    },
+    {
+      "id": "A3",
+      "nombre": "Operador sin 2FA mueve dinero",
+      "categoria": "Auth",
+      "owasp": "ASVS V2",
+      "iso": "A.8.5",
+      "estado": "defendido",
+      "detalle": "Bloqueado: is_active_operator()=false"
+    },
+    {
+      "id": "A4",
+      "nombre": "Webhook con firma falsa",
+      "categoria": "Integridad",
+      "owasp": "API8",
+      "iso": "A.8.26",
+      "estado": "hallazgo",
+      "detalle": "HTTP 000 (revisar)"
+    },
+    {
+      "id": "A5",
+      "nombre": "Crons sin secreto",
+      "categoria": "Auth",
+      "owasp": "API2",
+      "iso": "A.8.5",
+      "estado": "vulnerable",
+      "detalle": "CRON EJECUTADO: HTTP 000"
+    },
+    {
+      "id": "A6",
+      "nombre": "Fuerza bruta de login",
+      "categoria": "Anti-automacion",
+      "owasp": "API4",
+      "iso": "A.8.5",
+      "estado": "hallazgo",
+      "detalle": "sin freno local; verificar borde en prod",
+      "severidad": "media",
+      "recomendacion": "Verificar en produccion: regla de rate-limit en Vercel Firewall para /acceso y el endpoint de auth; rate-limits de Supabase Auth activos; idealmente captcha en el login.",
+      "prompt_fix": "Contexto: DBB-HACK detecto que la proteccion contra fuerza bruta depende solo del borde y el limitador propio (features/auth/lib/limite.ts) es por cookie y evitable, y no cubre /auth/v1/token de Supabase. Tarea: (1) habilitar rate-limit en Vercel Firewall para /acceso y auth; (2) verificar/ajustar rate-limits de Supabase Auth en produccion; (3) evaluar captcha (hCaptcha/Turnstile); (4) definir [auth.rate_limit] en supabase/config.toml. Listo cuando 20 intentos fallidos contra /auth/v1/token reciban 429 y el login legitimo siga funcionando."
+    },
+    {
+      "id": "S1",
+      "nombre": "Secretos en el código",
+      "categoria": "Secretos",
+      "owasp": "API8",
+      "iso": "A.8.24",
+      "estado": "defendido",
+      "detalle": "gitleaks: 0 secretos"
+    },
+    {
+      "id": "S2",
+      "nombre": "Dependencias vulnerables",
+      "categoria": "Supply-chain",
+      "owasp": "API8",
+      "iso": "A.8.8",
+      "estado": "defendido",
+      "detalle": "npm audit: 0"
+    },
+    {
+      "id": "S3",
+      "nombre": "Patrones inseguros (SAST)",
+      "categoria": "Codigo",
+      "owasp": "API8",
+      "iso": "A.8.28",
+      "estado": "defendido",
+      "detalle": "semgrep: 0 hallazgos"
+    },
+    {
+      "id": "A7",
+      "nombre": "GraphQL introspection",
+      "categoria": "Exposicion",
+      "owasp": "API9",
+      "iso": "A.8.3",
+      "estado": "defendido",
+      "detalle": "GraphQL no expone esquema"
+    },
+    {
+      "id": "A8",
+      "nombre": "Open redirect",
+      "categoria": "Web",
+      "owasp": "API1",
+      "iso": "A.8.26",
+      "estado": "defendido",
+      "detalle": "ignora el destino externo"
+    },
+    {
+      "id": "A9",
+      "nombre": "Enumeracion de usuarios",
+      "categoria": "Auth",
+      "owasp": "API3",
+      "iso": "A.8.5",
+      "estado": "defendido",
+      "detalle": "mismo error, no revela existencia"
+    },
+    {
+      "id": "A10",
+      "nombre": "Cabeceras de seguridad",
+      "categoria": "Config",
+      "owasp": "API8",
+      "iso": "A.8.26",
+      "estado": "hallazgo",
+      "detalle": "falta Content-Security-Policy",
+      "severidad": "media",
+      "recomendacion": "Agregar Content-Security-Policy (y HSTS) en next.config.ts, seccion async headers().",
+      "prompt_fix": "Contexto: la app no envia la cabecera Content-Security-Policy (si tiene X-Frame-Options, X-Content-Type-Options, Referrer-Policy y Permissions-Policy). Tarea: agregar en next.config.ts async headers() una CSP restrictiva que permita solo origenes propios + Supabase (127.0.0.1:54321 en dev / el dominio en prod) + Mercado Pago, y agregar Strict-Transport-Security. Listo cuando la respuesta de /acceso incluya Content-Security-Policy y securityheaders.com de nota A."
+    }
+  ],
+  "eventos": [
+    {
+      "hora": "19:35:41",
+      "tipo": "info",
+      "texto": "Ataque iniciado contra kapa21-v2 (lab local aislado)"
+    },
+    {
+      "hora": "19:35:41",
+      "tipo": "ataque",
+      "texto": "A0 Robo externo sin cuenta: preparando..."
+    },
+    {
+      "hora": "19:35:43",
+      "tipo": "ataque",
+      "texto": "A0 leyendo tablas con llave publica..."
+    },
+    {
+      "hora": "19:35:43",
+      "tipo": "defendido",
+      "texto": "A0 Robo externo sin cuenta: API no expone esquemas sensibles"
+    },
+    {
+      "hora": "19:35:45",
+      "tipo": "ataque",
+      "texto": "A1 Aislamiento entre clientes: preparando..."
+    },
+    {
+      "hora": "19:35:47",
+      "tipo": "ataque",
+      "texto": "A1 cliente A intenta leer perfil de B..."
+    },
+    {
+      "hora": "19:35:48",
+      "tipo": "defendido",
+      "texto": "A1 Aislamiento entre clientes: RLS: A no ve la fila de B"
+    },
+    {
+      "hora": "19:35:50",
+      "tipo": "ataque",
+      "texto": "A2 Escalada cliente a operador: preparando..."
+    },
+    {
+      "hora": "19:35:52",
+      "tipo": "ataque",
+      "texto": "A2 cliente intenta aprobar dinero..."
+    },
+    {
+      "hora": "19:35:52",
+      "tipo": "defendido",
+      "texto": "A2 Escalada cliente a operador: NOT_AN_OPERATOR"
+    },
+    {
+      "hora": "19:35:54",
+      "tipo": "ataque",
+      "texto": "A3 Operador sin 2FA mueve dinero: preparando..."
+    },
+    {
+      "hora": "19:35:56",
+      "tipo": "ataque",
+      "texto": "A3 operador sin 2FA intenta aprobar..."
+    },
+    {
+      "hora": "19:35:56",
+      "tipo": "defendido",
+      "texto": "A3 Operador sin 2FA mueve dinero: Bloqueado: is_active_operator()=false"
+    },
+    {
+      "hora": "19:35:58",
+      "tipo": "ataque",
+      "texto": "A4 Webhook con firma falsa: preparando..."
+    },
+    {
+      "hora": "19:36:00",
+      "tipo": "ataque",
+      "texto": "A4 aviso de pago con firma falsa..."
+    },
+    {
+      "hora": "19:36:00",
+      "tipo": "hallazgo",
+      "texto": "A4 Webhook con firma falsa: HTTP 000 (revisar)"
+    },
+    {
+      "hora": "19:36:03",
+      "tipo": "ataque",
+      "texto": "A5 Crons sin secreto: preparando..."
+    },
+    {
+      "hora": "19:36:05",
+      "tipo": "ataque",
+      "texto": "A5 disparando cron de pagos sin secreto..."
+    },
+    {
+      "hora": "19:36:05",
+      "tipo": "vulnerable",
+      "texto": "A5 Crons sin secreto: CRON EJECUTADO: HTTP 000"
+    },
+    {
+      "hora": "19:36:07",
+      "tipo": "ataque",
+      "texto": "A6 Fuerza bruta de login: preparando..."
+    },
+    {
+      "hora": "19:36:09",
+      "tipo": "ataque",
+      "texto": "A6 15 intentos de login fallidos rapidos..."
+    },
+    {
+      "hora": "19:36:11",
+      "tipo": "hallazgo",
+      "texto": "A6 Fuerza bruta de login: sin freno local; verificar borde en prod"
+    },
+    {
+      "hora": "19:36:13",
+      "tipo": "ataque",
+      "texto": "S1 Secretos en el código: preparando..."
+    },
+    {
+      "hora": "19:36:15",
+      "tipo": "ataque",
+      "texto": "S1 gitleaks sobre el repo e historial..."
+    },
+    {
+      "hora": "19:36:20",
+      "tipo": "defendido",
+      "texto": "S1 Secretos en el código: gitleaks: 0 secretos"
+    },
+    {
+      "hora": "19:36:23",
+      "tipo": "ataque",
+      "texto": "S2 Dependencias vulnerables: preparando..."
+    },
+    {
+      "hora": "19:36:25",
+      "tipo": "ataque",
+      "texto": "S2 npm audit..."
+    },
+    {
+      "hora": "19:36:29",
+      "tipo": "defendido",
+      "texto": "S2 Dependencias vulnerables: npm audit: 0"
+    },
+    {
+      "hora": "19:36:31",
+      "tipo": "ataque",
+      "texto": "S3 Patrones inseguros (SAST): preparando..."
+    },
+    {
+      "hora": "19:36:34",
+      "tipo": "ataque",
+      "texto": "S3 semgrep security-audit..."
+    },
+    {
+      "hora": "19:36:43",
+      "tipo": "defendido",
+      "texto": "S3 Patrones inseguros (SAST): semgrep: 0 hallazgos"
+    },
+    {
+      "hora": "19:36:45",
+      "tipo": "ataque",
+      "texto": "A7 GraphQL introspection: preparando..."
+    },
+    {
+      "hora": "19:36:47",
+      "tipo": "ataque",
+      "texto": "A7 introspeccion de GraphQL como anonimo..."
+    },
+    {
+      "hora": "19:36:47",
+      "tipo": "defendido",
+      "texto": "A7 GraphQL introspection: GraphQL no expone esquema"
+    },
+    {
+      "hora": "19:36:49",
+      "tipo": "ataque",
+      "texto": "A8 Open redirect: preparando..."
+    },
+    {
+      "hora": "19:36:52",
+      "tipo": "ataque",
+      "texto": "A8 redireccion a dominio externo..."
+    },
+    {
+      "hora": "19:36:52",
+      "tipo": "defendido",
+      "texto": "A8 Open redirect: ignora el destino externo"
+    },
+    {
+      "hora": "19:36:54",
+      "tipo": "ataque",
+      "texto": "A9 Enumeracion de usuarios: preparando..."
+    },
+    {
+      "hora": "19:36:56",
+      "tipo": "ataque",
+      "texto": "A9 login con correo existente vs inexistente..."
+    },
+    {
+      "hora": "19:36:56",
+      "tipo": "defendido",
+      "texto": "A9 Enumeracion de usuarios: mismo error, no revela existencia"
+    },
+    {
+      "hora": "19:36:58",
+      "tipo": "ataque",
+      "texto": "A10 Cabeceras de seguridad: preparando..."
+    },
+    {
+      "hora": "19:37:00",
+      "tipo": "ataque",
+      "texto": "A10 revisando cabeceras de seguridad..."
+    },
+    {
+      "hora": "19:37:00",
+      "tipo": "hallazgo",
+      "texto": "A10 Cabeceras de seguridad: falta Content-Security-Policy"
+    },
+    {
+      "hora": "19:37:02",
+      "tipo": "info",
+      "texto": "Ataque finalizado."
+    }
+  ],
+  "inicio": "2026-09-28T19:35:41.202969",
+  "total": 14
 }
