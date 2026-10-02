@@ -1,3 +1,5 @@
+![DBB-HACK](docs/screenshots/portada.png)
+
 # DBB-HACK
 
 **Your own in-house pentester for Next.js + Supabase apps — free, open source, no token billing.**
@@ -61,24 +63,58 @@ attached.
 | **FULL** | + live attacks in an isolated local lab |
 | **BAMF** | + ASVS/WSTG, money flows, compliance mapping |
 
-See `niveles.md` and the catalog `dashboard/vectores.json`.
+See `docs/niveles.md` and the catalog `dashboard/vectores.json`.
 
 ## Run it locally
 
-Requires **[Docker](https://www.docker.com/)** — the lab runs in isolated containers, it
-never touches production — and **[Claude Code](https://claude.com/claude-code)** (free,
-runs local, which is why DBB-HACK doesn't bill per token).
+### Requirements
+
+- **[Docker](https://www.docker.com/)**, installed and running. **Required** — FULL/BAMF
+  exploitation doesn't run against your real database, it runs against a **throwaway copy
+  of your Supabase + app stack inside Docker containers**, on your own machine. Nothing
+  ever touches production. If Docker isn't running, FULL/BAMF vectors report
+  **"not tested"** instead of faking a result — LOW/MID (static analysis) work without it.
+- **[Claude Code](https://claude.com/claude-code)** — free, runs locally, which is why
+  DBB-HACK doesn't bill per token.
+
+### What Docker actually does here
+
+`montar-lab.sh` reads the target project's own `docker-compose`/Supabase config and spins
+up an **isolated clone**: its own Postgres, Supabase Auth/Storage/Realtime, and the app
+itself, all in containers with their own network — never your project's live database or
+deployed app. That's the "lab". The console's container table shows real
+`docker stats`/`docker logs` from these containers while an attack runs, and
+`dashboard/reset-lab.sh` tears the clone down and rebuilds it clean between runs.
+
+### Start it
 
 ```bash
 git clone https://github.com/DBB-Labs/dbb-hack.git
 cd dbb-hack
-docker --version          # make sure Docker is installed and running
+docker --version          # confirm Docker is installed and running
 bash dashboard/servir.sh  # opens the console at http://localhost:8899
 ```
 
 Pick a target (any repo in `~/Documents/Proyectos`) + level + vectors, and launch. In
 FULL/BAMF, the auto-mounter (`montar-lab.sh`) brings up that project's isolated lab on
-its own. Reports are saved to `~/Documents/STRIX ANALISIS/<year>/<project>/<month>/`.
+its own — you don't run `docker compose` by hand. Reports are saved to
+`~/Documents/STRIX ANALISIS/<year>/<project>/<month>/`.
+
+### The console
+
+![DBB Labs console — full view](docs/screenshots/consola-general.png)
+
+<details>
+<summary><b>Individual panels</b> (control panel, oscilloscope, posture radar, Docker containers, activity feed)</summary>
+<br>
+
+| | |
+|---|---|
+| ![Control panel](docs/screenshots/panel-control.png) **Control panel** — target, level, vector checklist, launch | ![Oscilloscope](docs/screenshots/osciloscopio.png) **Oscilloscope** — real lab CPU while the attack runs |
+| ![Posture radar](docs/screenshots/radar-postura.png) **Posture radar** — per-vector result at a glance | ![Docker containers](docs/screenshots/contenedores-docker.png) **Docker containers** — real `docker stats`, never mocked |
+| ![Activity feed](docs/screenshots/feed-actividad.png) **Activity feed** — live log of every step the attack takes | |
+
+</details>
 
 ## Integrity guarantee (golden rule)
 

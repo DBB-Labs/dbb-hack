@@ -1,3 +1,5 @@
+![DBB-HACK](docs/screenshots/portada.png)
+
 # DBB-HACK
 
 **Tu propio pentester interno para apps Next.js + Supabase — gratis, open source, sin
@@ -63,13 +65,31 @@ chilenos anexos.
 | **FULL** | + ataques en vivo en un laboratorio local aislado |
 | **BAMF** | + ASVS/WSTG, flujos de dinero, mapa de cumplimiento |
 
-Ver `niveles.md` y el catálogo `dashboard/vectores.json`.
+Ver `docs/niveles.md` y el catálogo `dashboard/vectores.json`.
 
 ## Uso
 
-Necesitas **[Docker](https://www.docker.com/)** — el laboratorio corre en contenedores
-aislados, nunca toca producción — y **[Claude Code](https://claude.com/claude-code)**
-(gratis, corre local, por eso DBB-HACK no cobra por token).
+### Requisitos
+
+- **[Docker](https://www.docker.com/)**, instalado y corriendo. **Obligatorio** — la
+  explotación FULL/BAMF no corre contra tu base de datos real, corre contra una **copia
+  desechable de tu stack Supabase + app dentro de contenedores Docker**, en tu propia
+  máquina. Nunca toca producción. Si Docker no está corriendo, los vectores FULL/BAMF
+  quedan **"no probado"** en vez de inventar un resultado — LOW/MID (estático) funcionan
+  sin él.
+- **[Claude Code](https://claude.com/claude-code)** — gratis, corre local, por eso
+  DBB-HACK no cobra por token.
+
+### Qué hace Docker exactamente acá
+
+`montar-lab.sh` lee el `docker-compose`/config de Supabase del proyecto objetivo y levanta
+un **clon aislado**: su propio Postgres, Supabase Auth/Storage/Realtime, y la app misma,
+todo en contenedores con su propia red — nunca la base de datos real ni la app desplegada
+del proyecto. Eso es el "lab". La tabla de contenedores de la consola muestra
+`docker stats`/`docker logs` reales de estos contenedores mientras corre un ataque, y
+`dashboard/reset-lab.sh` destruye el clon y lo reconstruye limpio entre corridas.
+
+### Arranca
 
 ```bash
 git clone https://github.com/DBB-Labs/dbb-hack.git
@@ -79,8 +99,25 @@ bash dashboard/servir.sh  # abre la consola en http://localhost:8899
 ```
 
 Elige objetivo (cualquier repo en `~/Documents/Proyectos`) + nivel + vectores, y LANZAR.
-En FULL/BAMF el auto-montador (`montar-lab.sh`) levanta el lab del proyecto solo. Los
-informes se guardan en `~/Documents/STRIX ANALISIS/<año>/<proyecto>/<mes>/`.
+En FULL/BAMF el auto-montador (`montar-lab.sh`) levanta el lab del proyecto solo — no
+corres `docker compose` a mano. Los informes se guardan en
+`~/Documents/STRIX ANALISIS/<año>/<proyecto>/<mes>/`.
+
+### La consola
+
+![Consola DBB Labs — vista completa](docs/screenshots/consola-general.png)
+
+<details>
+<summary><b>Paneles individuales</b> (panel de control, osciloscopio, radar de postura, contenedores Docker, feed de actividad)</summary>
+<br>
+
+| | |
+|---|---|
+| ![Panel de control](docs/screenshots/panel-control.png) **Panel de control** — objetivo, nivel, checklist de vectores, lanzar | ![Osciloscopio](docs/screenshots/osciloscopio.png) **Osciloscopio** — CPU real del lab mientras corre el ataque |
+| ![Radar de postura](docs/screenshots/radar-postura.png) **Radar de postura** — resultado por vector de un vistazo | ![Contenedores Docker](docs/screenshots/contenedores-docker.png) **Contenedores Docker** — `docker stats` real, nunca inventado |
+| ![Feed de actividad](docs/screenshots/feed-actividad.png) **Feed de actividad** — log en vivo de cada paso del ataque | |
+
+</details>
 
 ## Garantía de integridad (regla de oro)
 
