@@ -32,11 +32,18 @@ class H(SimpleHTTPRequestHandler):
         return super().do_GET()
     def do_POST(self):
         path=self.path.split("?")[0]
-        if path not in ("/api/lanzar","/api/limpiar"):
+        if path not in ("/api/lanzar","/api/limpiar","/api/reset-lab"):
             self.send_error(404); return
         try:
             n=int(self.headers.get("Content-Length",0)); body=json.loads(self.rfile.read(n) or b"{}")
         except Exception: body={}
+        if path=="/api/reset-lab":
+            obj=str(body.get("objetivo","kapa21-v2"))[:80]
+            log=open("/tmp/dbb-reset-lab.log","a")
+            subprocess.Popen(["bash", os.path.join(HERE,"reset-lab.sh"), obj],
+                             stdout=log, stderr=subprocess.STDOUT)
+            self.send_response(200); self.send_header("Content-Type","application/json"); self.end_headers()
+            self.wfile.write(json.dumps({"ok":True,"objetivo":obj,"ver":"/tmp/dbb-reset-lab.log"}).encode()); return
         if path=="/api/limpiar":
             obj=str(body.get("objetivo","kapa21-v2"))[:80]
             subprocess.run(["python3", os.path.join(HERE,"emitir.py"),"reset",obj])
