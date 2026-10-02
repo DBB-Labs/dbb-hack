@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "DBB-HACK",
+    "output": "arquitectura-rendered.html",
+    "quality_profile": "showcase",
+    "locale": "es",
+    "views": [
+      { "id": "estatico", "label": "Análisis estático (LOW/MID)", "focus": ["operador", "consola", "motores_estaticos"], "note": "Secretos, dependencias y SAST sobre el código del objetivo, sin tocar la app en ejecución." },
+      { "id": "vivo", "label": "Explotación en vivo (FULL/BAMF)", "focus": ["consola", "montador", "docker", "lab_supabase", "lab_app", "motor_ataque", "informe"], "note": "Laboratorio aislado montado por Docker; solo se ataca ahí, nunca producción." }
+    ]
+  },
+  "components": [
+    { "id": "operador", "type": "external", "label": "Operador", "sublabel": "navegador local", "pos": [29, 156], "size": [94, 43] },
+    { "id": "consola", "type": "frontend", "label": "Consola DBB Labs", "sublabel": "localhost:8899", "pos": [202, 156], "size": [108, 46] },
+    { "id": "motores_estaticos", "type": "backend", "label": "Motores estáticos", "sublabel": "gitleaks · npm audit · semgrep", "pos": [403, 58], "size": [122, 46] },
+    { "id": "montador", "type": "backend", "label": "Auto-montador", "sublabel": "montar-lab.sh", "pos": [418, 156], "size": [108, 43] },
+    { "id": "docker", "type": "cloud", "label": "Docker", "sublabel": "contenedores aislados", "pos": [598, 156], "size": [101, 43] },
+    { "id": "lab_app", "type": "backend", "label": "App objetivo (lab)", "sublabel": "Next.js", "pos": [584.5, 244], "size": [128, 43] },
+    { "id": "lab_supabase", "type": "database", "label": "Supabase (lab)", "sublabel": "schema del proyecto", "pos": [763, 244], "size": [108, 43] },
+    { "id": "motor_ataque", "type": "security", "label": "Motor de ataque", "sublabel": "14 vectores · playbooks", "pos": [504, 322], "size": [115, 46] },
+    { "id": "informe", "type": "database", "label": "Informe", "sublabel": "panel + export PDF", "pos": [202, 244], "size": [108, 43] }
+  ],
+  "boundaries": [
+    { "kind": "security-group", "label": "Laboratorio aislado (nunca producción)", "wraps": ["docker", "lab_app", "lab_supabase", "motor_ataque"] }
+  ],
+  "connections": [
+    { "id": "operador-consola", "from": "operador", "to": "consola", "label": "elige objetivo", "variant": "emphasis", "fromSide": "right", "toSide": "left", "labelDy": 34 },
+    { "id": "consola-estaticos", "from": "consola", "to": "motores_estaticos", "label": "LOW / MID", "fromSide": "top", "toSide": "bottom" },
+    { "id": "consola-montador", "from": "consola", "to": "montador", "label": "FULL / BAMF", "fromSide": "right", "toSide": "left", "labelAt": [334, 216] },
+    { "id": "montador-docker", "from": "montador", "to": "docker", "label": "levanta lab", "fromSide": "right", "toSide": "left" },
+    { "id": "docker-app", "from": "docker", "to": "lab_app", "fromSide": "bottom", "toSide": "top" },
+    { "id": "docker-supabase", "from": "docker", "to": "lab_supabase", "fromSide": "right", "toSide": "top" },
+    { "id": "ataque-app", "from": "motor_ataque", "to": "lab_app", "label": "ataca", "fromSide": "top", "toSide": "bottom", "labelAt": [605, 301] },
+    { "id": "ataque-supabase", "from": "motor_ataque", "to": "lab_supabase", "label": "IDOR / RLS", "fromSide": "right", "toSide": "bottom" },
+    { "id": "consola-informe", "from": "consola", "to": "informe", "label": "vista en vivo", "fromSide": "bottom", "toSide": "top", "labelDy": 40 },
+    { "id": "ataque-informe", "from": "motor_ataque", "to": "informe", "label": "no probado", "variant": "dashed", "fromSide": "left", "toSide": "bottom" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Estático", "items": ["Secretos, dependencias y SAST sobre el código", "Corre en LOW y MID, nunca toca la app en ejecución"] },
+    { "dot": "rose", "title": "En vivo", "items": ["Docker monta un lab aislado con el Supabase + app del objetivo", "El motor de ataque solo pega ahí — si el lab no calza, queda \"no probado\""] },
+    { "dot": "emerald", "title": "Salida", "items": ["Consola con feed, matriz y radar en vivo", "Informe embebido + export PDF por vector"] }
+  ]
+}
