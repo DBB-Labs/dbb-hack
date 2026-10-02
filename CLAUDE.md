@@ -21,7 +21,7 @@ Es un producto que Felipe piensa ofrecer a clientes; kapa21 maneja dinero real y
 
 ## Los 4 niveles
 
-Ver `niveles.md` para el detalle completo. Resumen: **LOW** (CI/PR, estático, minutos) → **MID**
+Ver `docs/niveles.md` para el detalle completo. Resumen: **LOW** (CI/PR, estático, minutos) → **MID**
 (+ revisión humana por playbooks, sigue sin tocar la app) → **FULL** (+ laboratorio aislado, ataques
 en vivo, DAST) → **BAMF** (máximo blindaje para dinero real/regulado: ASVS L2/L3, WSTG, fuzzing,
 flujos de dinero, supply-chain, mapa de cumplimiento CMF/Ley 21.719/ISO 27002).

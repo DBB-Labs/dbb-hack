@@ -1,3 +1,11 @@
+# TÍTULO
+
+Me construí mi propio hacker para atacar mi fintech (y lo regalo) 🤖🔓
+
+---
+
+# POST
+
 ¿Mi fintech es segura? 🔒 Me construí mi propio hacker. 🤖
 
 En Kapa21 movemos plata de verdad 💰. Y yo no me quería quedar con el "debería estar ok". Quería saber, la firme, si aguantaba un ataque.
@@ -17,3 +25,29 @@ La regla que me puse: cero falsos positivos. Si no puede probar algo de verdad, 
 Ojo, esto no reemplaza un pentest profesional externo. Pero es una capa real, gratis y que corre siempre, que antes no tenía. 🛡️
 
 👇 Miren la consola trabajando. ¿Su proyecto pasaría los 14 vectores?
+
+---
+
+# CÓMO INSTALARLO
+
+Necesitas [Claude Code](https://claude.com/claude-code) (gratis, corre local — por eso DBB-HACK no cobra por token) y Docker.
+
+```bash
+git clone https://github.com/DBB-Labs/dbb-hack.git
+cd dbb-hack
+bash dashboard/servir.sh
+```
+
+Se abre la consola en `http://localhost:8899`. Eliges el repo objetivo (cualquier proyecto
+Next.js + Supabase que tengas en tu máquina), el nivel (LOW/MID/FULL/BAMF) y los vectores, y
+le das LANZAR. En FULL/BAMF el propio DBB-HACK monta el laboratorio aislado — no toca producción.
+
+📦 Descarga / código fuente: **https://github.com/DBB-Labs/dbb-hack**
+📖 Licencia GNU AGPL-3.0 — es open source, úsalo, cópialo, mejóralo.
+
+---
+
+# ¿TE SIRVIÓ?
+
+Si esto te ahorró una plata en pentest o simplemente te dio paz mental, invítame un café ☕
+👉 **https://buymeacoffee.com/DbbLabs**
