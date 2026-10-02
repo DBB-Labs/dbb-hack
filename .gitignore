@@ -5,3 +5,7 @@ playwright-report/
 dashboard/metricas.json
 dashboard/logs.json
 dashboard/conocimiento.json
+# Archify
+*.visual-check.*
+*.receipt.json
+.archify-*/
